@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+
+<Skein rootNode="node-1007">
+    <generator>Inform Mac Client (Inform version 1.65/6.33/6M62)</generator>
+    <item nodeId="node-1007">
+        <command xml:space="preserve">final game</command>
+        <result xml:space="preserve">
+
+
+You awake, cold and wet. Your clothes are soaked, and the only source of heat is the fire that you and your dog are huddled by.
+
+The Village
+An Interactive Fiction by kgoodrowe20
+Release 1 / Serial number 190312 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Hut
+A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is an exit to the east, and to the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1012"></child>
+            <child nodeId="node-1010"></child>
+        </children>
+    </item>
+    <item nodeId="node-1010">
+        <command xml:space="preserve">x shovel</command>
+        <result xml:space="preserve">An old, rusty shovel.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1012">
+        <command xml:space="preserve">x shelves</command>
+        <result xml:space="preserve">Hammers, nails, and other tools are scattered all over the shelves.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+</Skein>
