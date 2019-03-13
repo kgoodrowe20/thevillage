@@ -27,11 +27,15 @@ Nails is an undescribed thing in hut. The description is "Some old, rusty nails.
 
 Shovel is an undescribed thing in hut. The description is "An old, rusty shovel."
 
-Yard is a room. It is west of hut.
+Yard is a room. It is west of hut. 
+
+[dog in yard, dog is a follower]
 
 Walkway is a room. It is east of hut. "The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way."
 
 Fence is scenery in walkway.
+
+[cut down fence to access mountain]
 
 Mountain is a room. It is north of walkway. 
 
