@@ -18,7 +18,9 @@ A hut that you found yourself awake in. Shelves line the wooden walls, cluttered
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1012"></child>
+        <children><child nodeId="node-1446"></child>
+            <child nodeId="node-1449"></child>
+            <child nodeId="node-1012"></child>
             <child nodeId="node-1010"></child>
         </children>
     </item>
@@ -32,6 +34,85 @@ A hut that you found yourself awake in. Shelves line the wooden walls, cluttered
     <item nodeId="node-1012">
         <command xml:space="preserve">x shelves</command>
         <result xml:space="preserve">Hammers, nails, and other tools are scattered all over the shelves.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1449">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Yard
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1450"></child>
+        </children>
+    </item>
+    <item nodeId="node-1450">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hut
+A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is an exit to the east, and to the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1451"></child>
+        </children>
+    </item>
+    <item nodeId="node-1451">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Walkway
+The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1452"></child>
+        </children>
+    </item>
+    <item nodeId="node-1452">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Mountain
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1453"></child>
+        </children>
+    </item>
+    <item nodeId="node-1453">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Summit
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1446">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Walkway
+The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1447"></child>
+        </children>
+    </item>
+    <item nodeId="node-1447">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Mountain
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1448"></child>
+        </children>
+    </item>
+    <item nodeId="node-1448">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Summit
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
