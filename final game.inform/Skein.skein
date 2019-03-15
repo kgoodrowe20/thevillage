@@ -11,15 +11,20 @@ You awake, cold and wet. Your clothes are soaked, and the only source of heat is
 
 The Village
 An Interactive Fiction by kgoodrowe20
-Release 1 / Serial number 190312 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 190314 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Hut
-A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is an exit to the east, and to the west.
+A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is a large steel door to the east, and another exit to the west.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1446"></child>
+        <children><child nodeId="node-1458"></child>
+            <child nodeId="node-1446"></child>
+            <child nodeId="node-1459"></child>
+            <child nodeId="node-1471"></child>
+            <child nodeId="node-1454"></child>
             <child nodeId="node-1449"></child>
+            <child nodeId="node-1456"></child>
             <child nodeId="node-1012"></child>
             <child nodeId="node-1010"></child>
         </children>
@@ -34,6 +39,22 @@ A hut that you found yourself awake in. Shelves line the wooden walls, cluttered
     <item nodeId="node-1012">
         <command xml:space="preserve">x shelves</command>
         <result xml:space="preserve">Hammers, nails, and other tools are scattered all over the shelves.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1456">
+        <command xml:space="preserve">x metal box</command>
+        <result xml:space="preserve">There are three wires: red, blue, and green.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1457"></child>
+        </children>
+    </item>
+    <item nodeId="node-1457">
+        <command xml:space="preserve">cut</command>
+        <result xml:space="preserve">What do you want to cut?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -88,15 +109,124 @@ Summit
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1446">
+    <item nodeId="node-1454">
+        <command xml:space="preserve">take gloves</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1455"></child>
+        </children>
+    </item>
+    <item nodeId="node-1455">
+        <command xml:space="preserve">put on gloves</command>
+        <result xml:space="preserve">You put on Gloves.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1471">
+        <command xml:space="preserve">put on glovs</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1472"></child>
+        </children>
+    </item>
+    <item nodeId="node-1472">
+        <command xml:space="preserve">put on gloves</command>
+        <result xml:space="preserve">(first taking gloves)
+You put on gloves.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1473"></child>
+        </children>
+    </item>
+    <item nodeId="node-1473">
+        <command xml:space="preserve">cut green wire</command>
+        <result xml:space="preserve">You cut the green wire and a part of the wall slides out to expose a key that can be used on the steel door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1474"></child>
+        </children>
+    </item>
+    <item nodeId="node-1474">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Hut
+A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is a large steel door to the east, and another exit to the west.
+
+You can see key here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1475"></child>
+        </children>
+    </item>
+    <item nodeId="node-1475">
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1476"></child>
+        </children>
+    </item>
+    <item nodeId="node-1476">
+        <command xml:space="preserve">unlock steel door with key</command>
+        <result xml:space="preserve">You unlock steel door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1477"></child>
+        </children>
+    </item>
+    <item nodeId="node-1477">
         <command xml:space="preserve">e</command>
-        <result xml:space="preserve">
-Walkway
+        <result xml:space="preserve">(first opening steel door)
+
+walkway
 The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1447"></child>
+    </item>
+    <item nodeId="node-1459">
+        <command xml:space="preserve">put on gloves</command>
+        <result xml:space="preserve">(first taking gloves)
+You put on gloves.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1460"></child>
+        </children>
+    </item>
+    <item nodeId="node-1460">
+        <command xml:space="preserve">cut red wire</command>
+        <result xml:space="preserve">Nothing happened.
+
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1446">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening steel door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1468"></child>
+            <child nodeId="node-1447"></child>
         </children>
     </item>
     <item nodeId="node-1447">
@@ -113,6 +243,74 @@ Mountain
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Summit
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1468">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening steel door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1469"></child>
+        </children>
+    </item>
+    <item nodeId="node-1469">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening steel door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1458">
+        <command xml:space="preserve">cut red wire</command>
+        <result xml:space="preserve">
+
+    *** You get zapped by the exposed wire and black out. ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1463"></child>
+        </children>
+    </item>
+    <item nodeId="node-1463">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">
+
+
+You awake, cold and wet. Your clothes are soaked, and the only source of heat is the fire that you and your dog are huddled by.
+
+The Village
+An Interactive Fiction by kgoodrowe20
+Release 1 / Serial number 190314 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Hut
+A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is an exit to the east, and to the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1464"></child>
+        </children>
+    </item>
+    <item nodeId="node-1464">
+        <command xml:space="preserve">put on gloves</command>
+        <result xml:space="preserve">(first taking gloves)
+You put on gloves.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1465"></child>
+        </children>
+    </item>
+    <item nodeId="node-1465">
+        <command xml:space="preserve">cut red wire</command>
+        <result xml:space="preserve">Nothing happened.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
