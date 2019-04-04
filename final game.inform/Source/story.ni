@@ -1,9 +1,9 @@
 "The Village" by kgoodrowe20
 
 When play begins: 
-	say "You awake, cold and wet. Your clothes are soaked, and the only source of heat is the fire that you and your dog are huddled by."
+	say "You awake, cold and wet. Your clothes are soaked, and the only source of heat is the fire that you are huddled by."
 
-Hut is a room. The description is "A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is a large steel door to the east, and another exit to the west."
+Hut is a room. The description is "A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is a large steel door to the east, and another exit to the west. By the steel door there is a terminal with a red/blue/green color scheme."
 
 Shelves is scenery in hut. "Hammers, nails, wire cutters, and other tools are scattered all over the shelves. There is a bright red toolbox sitting on one of the shelves. There's a shovel behind the shelves. Next to the shelves, you can see an open metal box attached to the wall. There are wires inside."
 
@@ -13,7 +13,8 @@ tools is scenery in hut. "Assorted tools."
 
 junk is scenery in hut. "Worthless trash."
 
-toolbox is an undescribed container in hut.
+the toolbox is an undescribed container in hut.
+understand "toolbox" as the toolbox.
 
 wire cutters is a thing in toolbox. The description is "A rusted pair of wire cutters. The blade still seems sharp though."
 
@@ -31,32 +32,51 @@ Nails is an undescribed thing in hut. The description is "Some old, rusty nails.
 
 Shovel is an undescribed thing in hut. The description is "An old, rusty shovel."
 
-Wires are scenery in hut. "There are three wires: red, blue, and green." 
+Wires are scenery in hut. "There are three wires: red, green, and blue." 
 
 	understand "metal box" as wires.
 
-red wire is scenery in hut.
+red wire is scenery in hut. the description is "The red wire has the number 6 printed on it."
 
-blue wire is scenery in hut.
+blue wire is scenery in hut. the description is "The blue wire has the number 8 printed on it."
 
-green wire is scenery in hut.
+green wire is scenery in hut. the description is "The green wire has the number 2 printed on it."
 
+a manual is a thing in toolbox.
+understand "manual" as a manual.	
+
+instead of cutting wires:
+	say "You don't know how to work electronics; it's not safe to mess with live wire. Perhaps find something to help you?"
+	
 instead of cutting red wire:
-	if player is wearing gloves, say "Nothing happened.";
-		otherwise end the story saying "You get zapped by the exposed wire and faint. Look for something to protect yourself from the electricity." 
+	say "You don't know how to work electronics; it's not safe to mess with live wire. Perhaps find something to help you?"
 	
 instead of cutting blue wire:
-	if player is wearing gloves, say "Nothing happened.";
-		otherwise end the story saying "You get zapped by the exposed wire and faint. Look for something to protect yourself from the electricity." 
-		
+	say "You don't know how to work electronics; it's not safe to mess with live wire. Perhaps find something to help you?"
+	
 instead of cutting green wire:
-	move key to hut;
-	if player is wearing gloves, say "You cut the green wire and a part of the wall slides out to expose a key that can be used on the steel door.";
-		otherwise end the story saying "You get zapped by the exposed wire and faint. However, a key fell out of the wall. Look for something to protect yourself from the electricity." 
+	say "You don't know how to work electronics; it's not safe to mess with live wire. Perhaps find something to help you?"
+	
+[tools/manual is just to throw the player off]
 
 steel door is a door. it is locked. it is east of hut and west of Walkway. The description is "A large, industrial steel door."
 
-key is a thing. it unlocks steel door.
+terminal is scenery in hut. 
+
+instead of examining terminal:
+	say "YOU ARE BEING RECORDED. PLEASE SAY THE PASSWORD INTO THE TERMINAL."
+
+passunlocking is an action applying to nothing.	
+understand "682" as passunlocking.
+understand "six eight two" as passunlocking.
+understand "six hundred eighty two" as passunlocking.
+understand "six hundred eighty-two" as passunlocking.
+understand "six eighty two" as passunlocking.
+understand "six eighty-two" as passunlocking.
+
+instead of passunlocking:
+	say "CORRECT";
+	now steel door is unlocked.
 
 For printing a locale paragraph about a door (called the item) 
     (this is the don't mention doors in room descriptions rule): 

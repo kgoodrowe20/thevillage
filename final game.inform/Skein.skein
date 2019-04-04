@@ -7,27 +7,30 @@
         <result xml:space="preserve">
 
 
-You awake, cold and wet. Your clothes are soaked, and the only source of heat is the fire that you and your dog are huddled by.
+You awake, cold and wet. Your clothes are soaked, and the only source of heat is the fire that you are huddled by.
 
 The Village
 An Interactive Fiction by kgoodrowe20
-Release 1 / Serial number 190401 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 190403 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Hut
-A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is a large steel door to the east, and another exit to the west.
+A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is a large steel door to the east, and another exit to the west. By the steel door there is a terminal with a red/blue/green color scheme.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1054"></child>
+            <child nodeId="node-1075"></child>
             <child nodeId="node-1041"></child>
             <child nodeId="node-1040"></child>
             <child nodeId="node-1038"></child>
             <child nodeId="node-1031"></child>
             <child nodeId="node-1029"></child>
+            <child nodeId="node-1077"></child>
             <child nodeId="node-1026"></child>
             <child nodeId="node-1021"></child>
             <child nodeId="node-1017"></child>
             <child nodeId="node-1015"></child>
+            <child nodeId="node-1076"></child>
             <child nodeId="node-1012"></child>
             <child nodeId="node-1011"></child>
             <child nodeId="node-1003"></child>
@@ -35,7 +38,7 @@ A hut that you found yourself awake in. Shelves line the wooden walls, cluttered
     </item>
     <item nodeId="node-1003">
         <command xml:space="preserve">x toolbox</command>
-        <result xml:space="preserve">In toolbox are wire cutters and gloves.
+        <result xml:space="preserve">In the toolbox are wire cutters, gloves and a manual.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -134,6 +137,13 @@ A hut that you found yourself awake in. Shelves line the wooden walls, cluttered
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-1076">
+        <command xml:space="preserve">x red wire</command>
+        <result xml:space="preserve">You see nothing special about red wire.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1015">
         <command xml:space="preserve">x metal box</command>
         <result xml:space="preserve">There are three wires: red, blue, and green.
@@ -189,11 +199,29 @@ It seems to be locked.
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Yard
+You can see dog here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1022"></child>
+            <child nodeId="node-1084"></child>
         </children>
+    </item>
+    <item nodeId="node-1084">
+        <command xml:space="preserve">talk to dog</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1085"></child>
+        </children>
+    </item>
+    <item nodeId="node-1085">
+        <command xml:space="preserve">hi</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1022">
         <command xml:space="preserve">e</command>
@@ -256,6 +284,22 @@ Summit
     <item nodeId="node-1028">
         <command xml:space="preserve">x toolbox</command>
         <result xml:space="preserve">In toolbox is Wire cutters.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1077">
+        <command xml:space="preserve">take keypad</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1078"></child>
+        </children>
+    </item>
+    <item nodeId="node-1078">
+        <command xml:space="preserve">drop keypad</command>
+        <result xml:space="preserve">Dropped.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -395,7 +439,36 @@ It seems to be locked.
         <children><child nodeId="node-1052"></child>
             <child nodeId="node-1050"></child>
             <child nodeId="node-1042"></child>
+            <child nodeId="node-1080"></child>
         </children>
+    </item>
+    <item nodeId="node-1080">
+        <command xml:space="preserve">x keypad</command>
+        <result xml:space="preserve">&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1081"></child>
+        </children>
+    </item>
+    <item nodeId="node-1081">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening steel door)
+
+Walkway
+The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1082"></child>
+        </children>
+    </item>
+    <item nodeId="node-1082">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hut
+A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is a large steel door to the east, and another exit to the west. By the steel door there is a keypad with a red/blue/green color scheme.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1042">
         <command xml:space="preserve">x door</command>
@@ -516,6 +589,13 @@ It seems to be locked.
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">(first opening steel door)
 It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1075">
+        <command xml:space="preserve">cut wires</command>
+        <result xml:space="preserve">You don't know how to work electronics; it's not safe to mess with live wire. Perhaps find something to help you?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
