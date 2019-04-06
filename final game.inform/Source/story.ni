@@ -64,7 +64,7 @@ steel door is a door. it is locked. it is east of hut and west of Walkway. The d
 terminal is scenery in hut. 
 
 instead of examining terminal:
-	say "YOU ARE BEING RECORDED. PLEASE SAY THE PASSWORD INTO THE TERMINAL."
+	say "The terminal says: YOU ARE BEING RECORDED. PLEASE SAY THE PASSWORD INTO THE TERMINAL."
 
 passunlocking is an action applying to nothing.	
 understand "682" as passunlocking.
@@ -75,7 +75,8 @@ understand "six eighty two" as passunlocking.
 understand "six eighty-two" as passunlocking.
 
 instead of passunlocking:
-	say "CORRECT";
+	say "The terminal says: CORRECT PASSWORD, UNLOCKING DOOR.";
+	say "The door clicks.";
 	now steel door is unlocked.
 
 For printing a locale paragraph about a door (called the item) 
@@ -92,13 +93,28 @@ dog is a man in yard.
 
 [dog in yard, dog is a follower]
 
-Walkway is a room. "The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way."
+Walkway is a room. "[if player is holding glowing screw] The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north. To the east you see the faint glow of a distant village.[otherwise]The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. To the east you see the faint glow of a distant village."
  
-Fence is scenery in Walkway.
+Fence is scenery in walkway.
+
+glowing screw is a thing. The description is "A metal screw that emits a bright blue hue."
+
+
+
+instead of cutting fence:
+	say "You cut down the fence, gaining access to the mountain. You see a glowing screw in the rubble and take it.";
+	change south exit of mountain to walkway;
+	change north exit of walkway to mountain;
+	now player is carrying glowing screw.
+	
+[give the player glowing screw]
+	
+instead of dropping glowing screw:
+	say "You might need that!"
 
 [cut down fence to access mountain]
 
-Mountain is a room. It is north of Walkway. 
+Mountain is a room. 
 
 Summit is a room. It is north of mountain.
 	holy battery is a thing in summit.
@@ -108,10 +124,12 @@ Corn field is a room. It is south of walkway.
 Meadow is a room. It is south of Corn field.
 	tree is scenery in meadow.
 
-Village is a room. It is east of Walkway.
-	houses is scenery in village.
-	boltz is a man in village.
-	axe is a thing in village.
+Village is a room. It is east of Walkway. The description is "The village is nearly abandoned, with empty houses and damaged buildings. The walkway is to the west, and you can see a church to the east."
+
+houses is scenery in village. "Broken down houses line the edge of the village. Behind one of them, you spot an axe."
+	Boltz is a man in village.
+	axe is an undescribed thing in village. the description is "A heavy, rusted woodcutter's axe."
+	
 
 Church is a room. It is east of village.
 	altar is scenery in church.
