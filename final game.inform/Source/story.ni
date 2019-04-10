@@ -25,6 +25,7 @@ Every turn:
 		move horde to next space;
 		if horde is visible, end the story saying "The horde rushes you, and you get attacked."
 
+[add warning for horde]
 	
 tools is scenery in hut. "Assorted tools."
 
