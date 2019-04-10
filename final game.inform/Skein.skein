@@ -7,32 +7,35 @@
         <result xml:space="preserve">
 
 
-You awake, cold and wet. Your clothes are soaked, and the only source of heat is the fire that you are huddled by.
+You awake, cold and wet. Your clothes are soaked, and the only source of heat is the fire that you are huddled by. In the distance, you hear a horde of robots, and you realize they are coming to get you.
 
 The Village
 An Interactive Fiction by kgoodrowe20
-Release 1 / Serial number 190405 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 190409 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Hut
 A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is a large steel door to the east, and another exit to the west. By the steel door there is a terminal with a red/blue/green color scheme.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1097"></child>
-            <child nodeId="node-1110"></child>
-            <child nodeId="node-1054"></child>
+        <children><child nodeId="node-1547"></child>
+            <child nodeId="node-1079"></child>
             <child nodeId="node-1075"></child>
-            <child nodeId="node-1041"></child>
+            <child nodeId="node-1071"></child>
+            <child nodeId="node-1070"></child>
+            <child nodeId="node-1051"></child>
+            <child nodeId="node-1049"></child>
+            <child nodeId="node-1047"></child>
             <child nodeId="node-1040"></child>
+            <child nodeId="node-1537"></child>
             <child nodeId="node-1038"></child>
-            <child nodeId="node-1031"></child>
-            <child nodeId="node-1029"></child>
-            <child nodeId="node-1077"></child>
-            <child nodeId="node-1026"></child>
-            <child nodeId="node-1021"></child>
-            <child nodeId="node-1017"></child>
+            <child nodeId="node-1036"></child>
+            <child nodeId="node-1033"></child>
+            <child nodeId="node-1543"></child>
+            <child nodeId="node-1022"></child>
+            <child nodeId="node-1018"></child>
+            <child nodeId="node-1016"></child>
             <child nodeId="node-1015"></child>
-            <child nodeId="node-1076"></child>
             <child nodeId="node-1012"></child>
             <child nodeId="node-1011"></child>
             <child nodeId="node-1003"></child>
@@ -139,42 +142,32 @@ A hut that you found yourself awake in. Shelves line the wooden walls, cluttered
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1076">
+    <item nodeId="node-1015">
         <command xml:space="preserve">x red wire</command>
         <result xml:space="preserve">You see nothing special about red wire.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1015">
+    <item nodeId="node-1016">
         <command xml:space="preserve">x metal box</command>
         <result xml:space="preserve">There are three wires: red, blue, and green.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1016"></child>
+        <children><child nodeId="node-1017"></child>
         </children>
     </item>
-    <item nodeId="node-1016">
+    <item nodeId="node-1017">
         <command xml:space="preserve">cut</command>
         <result xml:space="preserve">What do you want to cut?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1017">
+    <item nodeId="node-1018">
         <command xml:space="preserve">x door</command>
         <result xml:space="preserve">A large, industrial steel door.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1018"></child>
-        </children>
-    </item>
-    <item nodeId="node-1018">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">(first opening steel door)
-It seems to be locked.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -182,8 +175,9 @@ It seems to be locked.
         </children>
     </item>
     <item nodeId="node-1019">
-        <command xml:space="preserve">s</command>
-        <result xml:space="preserve">You can't go that way.
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening steel door)
+It seems to be locked.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -191,13 +185,22 @@ It seems to be locked.
         </children>
     </item>
     <item nodeId="node-1020">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1021"></child>
+        </children>
+    </item>
+    <item nodeId="node-1021">
         <command xml:space="preserve">a</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1021">
+    <item nodeId="node-1022">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Yard
@@ -205,81 +208,13 @@ You can see dog here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1022"></child>
-            <child nodeId="node-1084"></child>
-        </children>
-    </item>
-    <item nodeId="node-1084">
-        <command xml:space="preserve">talk to dog</command>
-        <result xml:space="preserve">That's not a verb I recognise.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1085"></child>
-        </children>
-    </item>
-    <item nodeId="node-1085">
-        <command xml:space="preserve">hi</command>
-        <result xml:space="preserve">That's not a verb I recognise.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1086"></child>
-        </children>
-    </item>
-    <item nodeId="node-1086">
-        <command xml:space="preserve">dig</command>
-        <result xml:space="preserve">That's not a verb I recognise.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1087"></child>
-        </children>
-    </item>
-    <item nodeId="node-1087">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">
-Hut
-A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is a large steel door to the east, and another exit to the west. By the steel door there is a terminal with a red/blue/green color scheme.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1088"></child>
-        </children>
-    </item>
-    <item nodeId="node-1088">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">(first opening steel door)
-It seems to be locked.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1089"></child>
-        </children>
-    </item>
-    <item nodeId="node-1089">
-        <command xml:space="preserve">682</command>
-        <result xml:space="preserve">CORRECT PASSWORD, UNLOCKING DOOR. The door clicks.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1022">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">
-Hut
-A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is an exit to the east, and to the west.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1023"></child>
+        <children><child nodeId="node-1029"></child>
+            <child nodeId="node-1023"></child>
         </children>
     </item>
     <item nodeId="node-1023">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">
-Walkway
-The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way.
+        <command xml:space="preserve">talk to dog</command>
+        <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -287,9 +222,8 @@ The walkway is a pathway outside. The snow is billowing and piling up in large a
         </children>
     </item>
     <item nodeId="node-1024">
-        <command xml:space="preserve">n</command>
-        <result xml:space="preserve">
-Mountain
+        <command xml:space="preserve">hi</command>
+        <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -297,16 +231,19 @@ Mountain
         </children>
     </item>
     <item nodeId="node-1025">
-        <command xml:space="preserve">n</command>
-        <result xml:space="preserve">
-Summit
+        <command xml:space="preserve">dig</command>
+        <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1026"></child>
+        </children>
     </item>
     <item nodeId="node-1026">
-        <command xml:space="preserve">take toolbox</command>
-        <result xml:space="preserve">Taken.
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hut
+A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is a large steel door to the east, and another exit to the west. By the steel door there is a terminal with a red/blue/green color scheme.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -314,8 +251,9 @@ Summit
         </children>
     </item>
     <item nodeId="node-1027">
-        <command xml:space="preserve">drop toolbox</command>
-        <result xml:space="preserve">Dropped.
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening steel door)
+It seems to be locked.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -323,31 +261,17 @@ Summit
         </children>
     </item>
     <item nodeId="node-1028">
-        <command xml:space="preserve">x toolbox</command>
-        <result xml:space="preserve">In toolbox is Wire cutters.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1077">
-        <command xml:space="preserve">take keypad</command>
-        <result xml:space="preserve">Taken.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1078"></child>
-        </children>
-    </item>
-    <item nodeId="node-1078">
-        <command xml:space="preserve">drop keypad</command>
-        <result xml:space="preserve">Dropped.
+        <command xml:space="preserve">682</command>
+        <result xml:space="preserve">CORRECT PASSWORD, UNLOCKING DOOR. The door clicks.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1029">
-        <command xml:space="preserve">take gloves</command>
-        <result xml:space="preserve">Taken.
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hut
+A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is an exit to the east, and to the west.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -355,15 +279,20 @@ Summit
         </children>
     </item>
     <item nodeId="node-1030">
-        <command xml:space="preserve">put on gloves</command>
-        <result xml:space="preserve">You put on Gloves.
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Walkway
+The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1031"></child>
+        </children>
     </item>
     <item nodeId="node-1031">
-        <command xml:space="preserve">put on glovs</command>
-        <result xml:space="preserve">You can't see any such thing.
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Mountain
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -371,18 +300,23 @@ Summit
         </children>
     </item>
     <item nodeId="node-1032">
-        <command xml:space="preserve">put on gloves</command>
-        <result xml:space="preserve">(first taking gloves)
-You put on gloves.
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Summit
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1033"></child>
-        </children>
+    </item>
+    <item nodeId="node-1543">
+        <command xml:space="preserve">talk to boltz</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1033">
-        <command xml:space="preserve">cut green wire</command>
-        <result xml:space="preserve">You cut the green wire and a part of the wall slides out to expose a key that can be used on the steel door.
+        <command xml:space="preserve">take toolbox</command>
+        <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -390,6 +324,140 @@ You put on gloves.
         </children>
     </item>
     <item nodeId="node-1034">
+        <command xml:space="preserve">drop toolbox</command>
+        <result xml:space="preserve">Dropped.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1035"></child>
+        </children>
+    </item>
+    <item nodeId="node-1035">
+        <command xml:space="preserve">x toolbox</command>
+        <result xml:space="preserve">In toolbox is Wire cutters.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1036">
+        <command xml:space="preserve">take keypad</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1037"></child>
+        </children>
+    </item>
+    <item nodeId="node-1037">
+        <command xml:space="preserve">drop keypad</command>
+        <result xml:space="preserve">Dropped.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1038">
+        <command xml:space="preserve">take gloves</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1039"></child>
+        </children>
+    </item>
+    <item nodeId="node-1039">
+        <command xml:space="preserve">put on gloves</command>
+        <result xml:space="preserve">You put on Gloves.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1537">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1538"></child>
+        </children>
+    </item>
+    <item nodeId="node-1538">
+        <command xml:space="preserve">682</command>
+        <result xml:space="preserve">The terminal says: CORRECT PASSWORD, UNLOCKING DOOR.
+The door clicks.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1539"></child>
+        </children>
+    </item>
+    <item nodeId="node-1539">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening steel door)
+
+Walkway
+The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. To the east you see the faint glow of a distant village.
+
+Boltz arrives from Village.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1540"></child>
+        </children>
+    </item>
+    <item nodeId="node-1540">
+        <command xml:space="preserve">hi</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1541"></child>
+        </children>
+    </item>
+    <item nodeId="node-1541">
+        <command xml:space="preserve">ask about man</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1542"></child>
+        </children>
+    </item>
+    <item nodeId="node-1542">
+        <command xml:space="preserve">ask about mountain</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1040">
+        <command xml:space="preserve">put on glovs</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1041"></child>
+        </children>
+    </item>
+    <item nodeId="node-1041">
+        <command xml:space="preserve">put on gloves</command>
+        <result xml:space="preserve">(first taking gloves)
+You put on gloves.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1042"></child>
+        </children>
+    </item>
+    <item nodeId="node-1042">
+        <command xml:space="preserve">cut green wire</command>
+        <result xml:space="preserve">You cut the green wire and a part of the wall slides out to expose a key that can be used on the steel door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1043"></child>
+        </children>
+    </item>
+    <item nodeId="node-1043">
         <command xml:space="preserve">l</command>
         <result xml:space="preserve">Hut
 A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is a large steel door to the east, and another exit to the west.
@@ -398,28 +466,28 @@ You can see key here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1035"></child>
+        <children><child nodeId="node-1044"></child>
         </children>
     </item>
-    <item nodeId="node-1035">
+    <item nodeId="node-1044">
         <command xml:space="preserve">take key</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1036"></child>
+        <children><child nodeId="node-1045"></child>
         </children>
     </item>
-    <item nodeId="node-1036">
+    <item nodeId="node-1045">
         <command xml:space="preserve">unlock steel door with key</command>
         <result xml:space="preserve">You unlock steel door.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1037"></child>
+        <children><child nodeId="node-1046"></child>
         </children>
     </item>
-    <item nodeId="node-1037">
+    <item nodeId="node-1046">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">(first opening steel door)
 
@@ -429,17 +497,17 @@ The walkway is a pathway outside. The snow is billowing and piling up in large a
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1038">
+    <item nodeId="node-1047">
         <command xml:space="preserve">put on gloves</command>
         <result xml:space="preserve">(first taking gloves)
 You put on gloves.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1039"></child>
+        <children><child nodeId="node-1048"></child>
         </children>
     </item>
-    <item nodeId="node-1039">
+    <item nodeId="node-1048">
         <command xml:space="preserve">cut red wire</command>
         <result xml:space="preserve">Nothing happened.
 
@@ -454,44 +522,45 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1040">
+    <item nodeId="node-1049">
         <command xml:space="preserve">follow</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1066"></child>
+        <children><child nodeId="node-1050"></child>
         </children>
     </item>
-    <item nodeId="node-1066">
+    <item nodeId="node-1050">
         <command xml:space="preserve">follow</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1041">
+    <item nodeId="node-1051">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">(first opening steel door)
 It seems to be locked.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1099"></child>
+        <children><child nodeId="node-1067"></child>
+            <child nodeId="node-1065"></child>
+            <child nodeId="node-1063"></child>
+            <child nodeId="node-1529"></child>
+            <child nodeId="node-1055"></child>
             <child nodeId="node-1052"></child>
-            <child nodeId="node-1050"></child>
-            <child nodeId="node-1042"></child>
-            <child nodeId="node-1080"></child>
         </children>
     </item>
-    <item nodeId="node-1080">
+    <item nodeId="node-1052">
         <command xml:space="preserve">x keypad</command>
         <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1081"></child>
+        <children><child nodeId="node-1053"></child>
         </children>
     </item>
-    <item nodeId="node-1081">
+    <item nodeId="node-1053">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">(first opening steel door)
 
@@ -500,10 +569,10 @@ The walkway is a pathway outside. The snow is billowing and piling up in large a
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1082"></child>
+        <children><child nodeId="node-1054"></child>
         </children>
     </item>
-    <item nodeId="node-1082">
+    <item nodeId="node-1054">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Hut
@@ -512,34 +581,34 @@ A hut that you found yourself awake in. Shelves line the wooden walls, cluttered
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1042">
+    <item nodeId="node-1055">
         <command xml:space="preserve">x door</command>
         <result xml:space="preserve">You see nothing special about steel door.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1043"></child>
+        <children><child nodeId="node-1056"></child>
         </children>
     </item>
-    <item nodeId="node-1043">
+    <item nodeId="node-1056">
         <command xml:space="preserve">x shelves</command>
         <result xml:space="preserve">Hammers, nails, and other tools are scattered all over the shelves. There's a shovel behind the shelves. Next to the shelves, you can see an open metal box attached to the wall. There are wires inside.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1044"></child>
+        <children><child nodeId="node-1057"></child>
         </children>
     </item>
-    <item nodeId="node-1044">
+    <item nodeId="node-1057">
         <command xml:space="preserve">x metal box</command>
         <result xml:space="preserve">There are three wires: red, blue, and green.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1045"></child>
+        <children><child nodeId="node-1058"></child>
         </children>
     </item>
-    <item nodeId="node-1045">
+    <item nodeId="node-1058">
         <command xml:space="preserve">cut red wire</command>
         <result xml:space="preserve">
 
@@ -550,20 +619,20 @@ A hut that you found yourself awake in. Shelves line the wooden walls, cluttered
 Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1046"></child>
+        <children><child nodeId="node-1059"></child>
         </children>
     </item>
-    <item nodeId="node-1046">
+    <item nodeId="node-1059">
         <command xml:space="preserve">undo</command>
         <result xml:space="preserve">Hut
 [Previous turn undone.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1047"></child>
+        <children><child nodeId="node-1060"></child>
         </children>
     </item>
-    <item nodeId="node-1047">
+    <item nodeId="node-1060">
         <command xml:space="preserve">cut blue wire</command>
         <result xml:space="preserve">
 
@@ -574,20 +643,20 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1048"></child>
+        <children><child nodeId="node-1061"></child>
         </children>
     </item>
-    <item nodeId="node-1048">
+    <item nodeId="node-1061">
         <command xml:space="preserve">undo</command>
         <result xml:space="preserve">Hut
 [Previous turn undone.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1049"></child>
+        <children><child nodeId="node-1062"></child>
         </children>
     </item>
-    <item nodeId="node-1049">
+    <item nodeId="node-1062">
         <command xml:space="preserve">cut green wire</command>
         <result xml:space="preserve">
 
@@ -599,17 +668,95 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1050">
+    <item nodeId="node-1529">
+        <command xml:space="preserve">x dooe</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1530"></child>
+        </children>
+    </item>
+    <item nodeId="node-1530">
+        <command xml:space="preserve">x door</command>
+        <result xml:space="preserve">A large, industrial steel door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1531"></child>
+        </children>
+    </item>
+    <item nodeId="node-1531">
+        <command xml:space="preserve">x terminal</command>
+        <result xml:space="preserve">The terminal says: YOU ARE BEING RECORDED. PLEASE SAY THE PASSWORD INTO THE TERMINAL.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1532"></child>
+        </children>
+    </item>
+    <item nodeId="node-1532">
+        <command xml:space="preserve">682</command>
+        <result xml:space="preserve">The terminal says: CORRECT PASSWORD, UNLOCKING DOOR.
+The door clicks.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1533"></child>
+        </children>
+    </item>
+    <item nodeId="node-1533">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening steel door)
+
+Walkway
+The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. To the east you see the faint glow of a distant village.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1534"></child>
+        </children>
+    </item>
+    <item nodeId="node-1534">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1535"></child>
+        </children>
+    </item>
+    <item nodeId="node-1535">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Village
+The village is nearly abandoned, with empty houses and damaged buildings. The walkway is to the west, and you can see a church to the east.
+
+You can see Boltz here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1536"></child>
+        </children>
+    </item>
+    <item nodeId="node-1536">
+        <command xml:space="preserve">talk to boltz</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1063">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Mountain
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1051"></child>
+        <children><child nodeId="node-1064"></child>
         </children>
     </item>
-    <item nodeId="node-1051">
+    <item nodeId="node-1064">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Summit
@@ -617,17 +764,17 @@ Summit
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1052">
+    <item nodeId="node-1065">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">(first opening steel door)
 It seems to be locked.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1053"></child>
+        <children><child nodeId="node-1066"></child>
         </children>
     </item>
-    <item nodeId="node-1053">
+    <item nodeId="node-1066">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">(first opening steel door)
 It seems to be locked.
@@ -635,17 +782,17 @@ It seems to be locked.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1099">
+    <item nodeId="node-1067">
         <command xml:space="preserve">682</command>
         <result xml:space="preserve">The terminal says: CORRECT PASSWORD, UNLOCKING DOOR.
 The door clicks.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1100"></child>
+        <children><child nodeId="node-1068"></child>
         </children>
     </item>
-    <item nodeId="node-1100">
+    <item nodeId="node-1068">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">(first opening steel door)
 
@@ -654,10 +801,10 @@ The walkway is a pathway outside. The snow is billowing and piling up in large a
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1101"></child>
+        <children><child nodeId="node-1069"></child>
         </children>
     </item>
-    <item nodeId="node-1101">
+    <item nodeId="node-1069">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Village
@@ -666,14 +813,14 @@ You can see boltz and axe here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1075">
+    <item nodeId="node-1070">
         <command xml:space="preserve">cut wires</command>
         <result xml:space="preserve">You don't know how to work electronics; it's not safe to mess with live wire. Perhaps find something to help you?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1054">
+    <item nodeId="node-1071">
         <command xml:space="preserve">cut red wire</command>
         <result xml:space="preserve">
 
@@ -684,10 +831,10 @@ You can see boltz and axe here.
 Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1055"></child>
+        <children><child nodeId="node-1072"></child>
         </children>
     </item>
-    <item nodeId="node-1055">
+    <item nodeId="node-1072">
         <command xml:space="preserve">restart</command>
         <result xml:space="preserve">
 
@@ -703,55 +850,55 @@ A hut that you found yourself awake in. Shelves line the wooden walls, cluttered
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1056"></child>
+        <children><child nodeId="node-1073"></child>
         </children>
     </item>
-    <item nodeId="node-1056">
+    <item nodeId="node-1073">
         <command xml:space="preserve">put on gloves</command>
         <result xml:space="preserve">(first taking gloves)
 You put on gloves.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1057"></child>
+        <children><child nodeId="node-1074"></child>
         </children>
     </item>
-    <item nodeId="node-1057">
+    <item nodeId="node-1074">
         <command xml:space="preserve">cut red wire</command>
         <result xml:space="preserve">Nothing happened.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1110">
+    <item nodeId="node-1075">
         <command xml:space="preserve">cut</command>
         <result xml:space="preserve">(steel door)
 Cutting it up would achieve little.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1113"></child>
-            <child nodeId="node-1111"></child>
+        <children><child nodeId="node-1077"></child>
+            <child nodeId="node-1076"></child>
         </children>
     </item>
-    <item nodeId="node-1111">
+    <item nodeId="node-1076">
         <command xml:space="preserve">cut fence</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1113">
+    <item nodeId="node-1077">
         <command xml:space="preserve">682</command>
         <result xml:space="preserve">The terminal says: CORRECT PASSWORD, UNLOCKING DOOR.
 The door clicks.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1114"></child>
+        <children><child nodeId="node-1078"></child>
         </children>
     </item>
-    <item nodeId="node-1114">
+    <item nodeId="node-1078">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">(first opening steel door)
 
@@ -761,17 +908,75 @@ The walkway is a pathway outside. The snow is billowing and piling up in large a
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1097">
+    <item nodeId="node-1079">
         <command xml:space="preserve">682</command>
         <result xml:space="preserve">The terminal says: CORRECT PASSWORD, UNLOCKING DOOR.
 The door clicks.
+You hear the roar of the horde to the distant west.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1103"></child>
+        <children><child nodeId="node-1080"></child>
+            <child nodeId="node-1576"></child>
+            <child nodeId="node-1580"></child>
         </children>
     </item>
-    <item nodeId="node-1103">
+    <item nodeId="node-1580">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Yard
+You can see a horde and dog here.
+
+Boltz heads to Wasteland. 
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1576">
+        <command xml:space="preserve">r</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1577"></child>
+        </children>
+    </item>
+    <item nodeId="node-1577">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">
+
+
+You awake, cold and wet. Your clothes are soaked, and the only source of heat is the fire that you are huddled by. In the distance, you hear a horde of robots, and you realize they are coming to get you.
+
+The Village
+An Interactive Fiction by kgoodrowe20
+Release 1 / Serial number 190409 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Hut
+A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is a large steel door to the east, and another exit to the west. By the steel door there is a terminal with a red/blue/green color scheme.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1578"></child>
+        </children>
+    </item>
+    <item nodeId="node-1578">
+        <command xml:space="preserve">682</command>
+        <result xml:space="preserve">The terminal says: CORRECT PASSWORD, UNLOCKING DOOR.
+The door clicks.
+You hear the roar of the horde to the distant west.
+
+
+
+    *** The horde rushes you, and you get attacked. ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1080">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">(first opening steel door)
 
@@ -780,10 +985,11 @@ The walkway is a pathway outside. The snow is billowing and piling up in large a
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1104"></child>
+        <children><child nodeId="node-1546"></child>
+            <child nodeId="node-1081"></child>
         </children>
     </item>
-    <item nodeId="node-1104">
+    <item nodeId="node-1081">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Village
@@ -793,36 +999,36 @@ You can see Boltz here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1551"></child>
-            <child nodeId="node-1108"></child>
+        <children><child nodeId="node-1084"></child>
+            <child nodeId="node-1082"></child>
         </children>
     </item>
-    <item nodeId="node-1108">
+    <item nodeId="node-1082">
         <command xml:space="preserve">x houses</command>
         <result xml:space="preserve">Broken down houses line the edge of the village. Behind one of them, you spot an axe.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1109"></child>
+        <children><child nodeId="node-1083"></child>
         </children>
     </item>
-    <item nodeId="node-1109">
+    <item nodeId="node-1083">
         <command xml:space="preserve">take axe</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1551">
+    <item nodeId="node-1084">
         <command xml:space="preserve">take axe</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1552"></child>
+        <children><child nodeId="node-1085"></child>
         </children>
     </item>
-    <item nodeId="node-1552">
+    <item nodeId="node-1085">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Walkway
@@ -830,29 +1036,29 @@ The walkway is a pathway outside. The snow is billowing and piling up in large a
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1569"></child>
-            <child nodeId="node-1553"></child>
+        <children><child nodeId="node-1089"></child>
+            <child nodeId="node-1086"></child>
         </children>
     </item>
-    <item nodeId="node-1553">
+    <item nodeId="node-1086">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1554"></child>
+        <children><child nodeId="node-1087"></child>
         </children>
     </item>
-    <item nodeId="node-1554">
+    <item nodeId="node-1087">
         <command xml:space="preserve">cut fence</command>
         <result xml:space="preserve">You cut down the fence, gaining access to the mountain.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1555"></child>
+        <children><child nodeId="node-1088"></child>
         </children>
     </item>
-    <item nodeId="node-1555">
+    <item nodeId="node-1088">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Mountain
@@ -860,16 +1066,16 @@ Mountain
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1569">
+    <item nodeId="node-1089">
         <command xml:space="preserve">cut fence</command>
         <result xml:space="preserve">You cut down the fence, gaining access to the mountain. You see a glowing screw in the rubble and take it.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1570"></child>
+        <children><child nodeId="node-1090"></child>
         </children>
     </item>
-    <item nodeId="node-1570">
+    <item nodeId="node-1090">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   glowing screw
@@ -877,13 +1083,231 @@ Mountain
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1091"></child>
+        </children>
+    </item>
+    <item nodeId="node-1091">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Mountain
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1092"></child>
+        </children>
+    </item>
+    <item nodeId="node-1092">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Walkway
+ The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north. To the east you see the faint glow of a distant village.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1546">
+        <command xml:space="preserve">692</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1547">
+        <command xml:space="preserve">628</command>
+        <result xml:space="preserve">The terminal says: INCORRECT PASSWORD, PLEASE TRY AGAIN.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1548"></child>
+        </children>
+    </item>
+    <item nodeId="node-1548">
+        <command xml:space="preserve">x wires</command>
+        <result xml:space="preserve">There are three wires: red, green, and blue.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1549"></child>
+        </children>
+    </item>
+    <item nodeId="node-1549">
+        <command xml:space="preserve">x red wire</command>
+        <result xml:space="preserve">The red wire has the number 6 printed on it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1550"></child>
+        </children>
+    </item>
+    <item nodeId="node-1550">
+        <command xml:space="preserve">x green wire</command>
+        <result xml:space="preserve">The green wire has the number 2 printed on it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1551"></child>
+        </children>
+    </item>
+    <item nodeId="node-1551">
+        <command xml:space="preserve">x blue wire</command>
+        <result xml:space="preserve">The blue wire has the number 8 printed on it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1552"></child>
+        </children>
+    </item>
+    <item nodeId="node-1552">
+        <command xml:space="preserve">286</command>
+        <result xml:space="preserve">The terminal says: INCORRECT PASSWORD, PLEASE TRY AGAIN.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1559"></child>
+        </children>
+    </item>
+    <item nodeId="node-1559">
+        <command xml:space="preserve">682</command>
+        <result xml:space="preserve">The terminal says: CORRECT PASSWORD, UNLOCKING DOOR.
+The door clicks.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1560"></child>
+        </children>
+    </item>
+    <item nodeId="node-1560">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening steel door)
+
+Walkway
+The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. To the east you see the faint glow of a distant village.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1561"></child>
+        </children>
+    </item>
+    <item nodeId="node-1561">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Village
+The village is nearly abandoned, with empty houses and damaged buildings. The walkway is to the west, and you can see a church to the east.
+
+You can see Boltz here.
+
+Boltz heads to Walkway. 
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1562"></child>
+        </children>
+    </item>
+    <item nodeId="node-1562">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Walkway
+The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. To the east you see the faint glow of a distant village.
+
+You can see Boltz here.
+
+Boltz heads to Corn field. 
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1563"></child>
+        </children>
+    </item>
+    <item nodeId="node-1563">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Corn field
+You can see Boltz here.
+
+Boltz heads to Meadow. 
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1564"></child>
+        </children>
+    </item>
+    <item nodeId="node-1564">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Meadow
+You can see Boltz here.
+
+Boltz heads to Corn field. 
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1565"></child>
+        </children>
+    </item>
+    <item nodeId="node-1565">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1566"></child>
+        </children>
+    </item>
+    <item nodeId="node-1566">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Corn field
+Boltz arrives from Walkway. He greets you with the integrated monitor on his chest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1567"></child>
+        </children>
+    </item>
+    <item nodeId="node-1567">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Walkway
+The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. To the east you see the faint glow of a distant village.
+
+Boltz arrives from Corn field. He greets you with the integrated monitor on his chest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1568"></child>
+        </children>
+    </item>
+    <item nodeId="node-1568">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Village
+The village is nearly abandoned, with empty houses and damaged buildings. The walkway is to the west, and you can see a church to the east.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1569"></child>
+        </children>
+    </item>
+    <item nodeId="node-1569">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Church
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1570"></child>
+        </children>
+    </item>
+    <item nodeId="node-1570">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1571"></child>
         </children>
     </item>
     <item nodeId="node-1571">
-        <command xml:space="preserve">n</command>
+        <command xml:space="preserve">w</command>
         <result xml:space="preserve">
-Mountain
+Village
+The village is nearly abandoned, with empty houses and damaged buildings. The walkway is to the west, and you can see a church to the east.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -891,10 +1315,30 @@ Mountain
         </children>
     </item>
     <item nodeId="node-1572">
-        <command xml:space="preserve">s</command>
+        <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Walkway
- The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north. To the east you see the faint glow of a distant village.
+The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. To the east you see the faint glow of a distant village.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1573"></child>
+        </children>
+    </item>
+    <item nodeId="node-1573">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1574"></child>
+        </children>
+    </item>
+    <item nodeId="node-1574">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Village
+The village is nearly abandoned, with empty houses and damaged buildings. The walkway is to the west, and you can see a church to the east.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

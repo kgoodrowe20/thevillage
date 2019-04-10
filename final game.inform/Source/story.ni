@@ -1,13 +1,30 @@
 "The Village" by kgoodrowe20
 
 When play begins: 
-	say "You awake, cold and wet. Your clothes are soaked, and the only source of heat is the fire that you are huddled by."
+	say "You awake, cold and wet. Your clothes are soaked, and the only source of heat is the fire that you are huddled by. In the distance, you hear a horde of robots, and you realize they are coming to get you."
 
 Hut is a room. The description is "A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is a large steel door to the east, and another exit to the west. By the steel door there is a terminal with a red/blue/green color scheme."
 
 Shelves is scenery in hut. "Hammers, nails, wire cutters, and other tools are scattered all over the shelves. There is a bright red toolbox sitting on one of the shelves. There's a shovel behind the shelves. Next to the shelves, you can see an open metal box attached to the wall. There are wires inside."
 
 	understand "shelf" as shelves.
+	
+Every turn: 
+	if Boltz is in a room (called the current space): 
+		let next space be a random room which is adjacent to the current space; 
+		if Boltz is visible, say "Boltz heads to [the next space]. ";
+		move Boltz to next space;
+		if Boltz is visible, say "Boltz arrives from [the current space]. He greets you with the integrated monitor on his chest."
+
+the horde is a man.
+
+Every turn: 
+	if horde is in a room (called the current space): 
+		let next space be a random room which is adjacent to the current space; 
+		if horde is visible, say "The horde heads to [the next space]. ";
+		move horde to next space;
+		if horde is visible, end the story saying "The horde rushes you, and you get attacked."
+
 	
 tools is scenery in hut. "Assorted tools."
 
@@ -74,19 +91,34 @@ understand "six hundred eighty-two" as passunlocking.
 understand "six eighty two" as passunlocking.
 understand "six eighty-two" as passunlocking.
 
+incorrectpass is an action applying to nothing.
+
+understand "628" as incorrectpass.
+understand "286" as incorrectpass.
+understand "268" as incorrectpass.
+understand "862" as incorrectpass.
+understand "826" as incorrectpass.
+
+instead of incorrectpass:
+	say "The terminal says: INCORRECT PASSWORD, PLEASE TRY AGAIN."
+
 instead of passunlocking:
 	say "The terminal says: CORRECT PASSWORD, UNLOCKING DOOR.";
 	say "The door clicks.";
-	now steel door is unlocked.
+	say "You hear the roar of the horde to the distant west.";
+	now steel door is unlocked;
+	now horde is in wasteland.
 
 For printing a locale paragraph about a door (called the item) 
     (this is the don't mention doors in room descriptions rule): 
     set the locale priority of the item to 0; 
     continue the activity.
 
+Wasteland is a room. It is west of Yard.
+
 Yard is a room. It is west of hut. 
 
-dog is a man in yard.
+dog is a man in Yard.
 
 [Before going from the hut to the yard:
 	dog is now following player.]
@@ -98,8 +130,6 @@ Walkway is a room. "[if player is holding glowing screw] The walkway is a pathwa
 Fence is scenery in walkway.
 
 glowing screw is a thing. The description is "A metal screw that emits a bright blue hue."
-
-
 
 instead of cutting fence:
 	say "You cut down the fence, gaining access to the mountain. You see a glowing screw in the rubble and take it.";
