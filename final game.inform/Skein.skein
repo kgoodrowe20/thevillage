@@ -11,7 +11,7 @@ You awake, cold and wet. Your clothes are soaked, and the only source of heat is
 
 The Village
 An Interactive Fiction by kgoodrowe20
-Release 1 / Serial number 190409 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 190411 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Hut
 A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is a large steel door to the east, and another exit to the west. By the steel door there is a terminal with a red/blue/green color scheme.
@@ -38,6 +38,7 @@ A hut that you found yourself awake in. Shelves line the wooden walls, cluttered
             <child nodeId="node-1015"></child>
             <child nodeId="node-1012"></child>
             <child nodeId="node-1011"></child>
+            <child nodeId="node-1583"></child>
             <child nodeId="node-1003"></child>
         </children>
     </item>
@@ -107,6 +108,36 @@ A hut that you found yourself awake in. Shelves line the wooden walls, cluttered
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying nothing.
 
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1583">
+        <command xml:space="preserve">x terminal</command>
+        <result xml:space="preserve">The terminal says: YOU ARE BEING RECORDED. PLEASE SAY THE PASSWORD INTO THE TERMINAL.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1584"></child>
+        </children>
+    </item>
+    <item nodeId="node-1584">
+        <command xml:space="preserve">682</command>
+        <result xml:space="preserve">The terminal says: CORRECT PASSWORD, UNLOCKING DOOR.
+The door clicks.
+You hear the roar of the horde to the distant west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1585"></child>
+        </children>
+    </item>
+    <item nodeId="node-1585">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Yard
+You can see a horde and dog here.
+
+The horde heads to Wasteland. 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
@@ -914,6 +945,7 @@ The walkway is a pathway outside. The snow is billowing and piling up in large a
 The door clicks.
 You hear the roar of the horde to the distant west.
 
+you hear the horde nearby
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1080"></child>
@@ -925,10 +957,46 @@ You hear the roar of the horde to the distant west.
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Yard
-You can see a horde and dog here.
+A run down yard, complete with a snowed-out garden.
 
-Boltz heads to Wasteland. 
+You can see a horde here.
+
+
+
+    *** The horde rushes you, and you get attacked. ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1588"></child>
+            <child nodeId="node-1591"></child>
+        </children>
+    </item>
+    <item nodeId="node-1591">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">
+
+
+You awake, cold and wet. Your clothes are soaked, and the only source of heat is the fire that you are huddled by. In the distance, you hear a horde of robots, and you realize they are coming to get you.
+
+The Village
+An Interactive Fiction by kgoodrowe20
+Release 1 / Serial number 190411 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Hut
+A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is a large steel door to the east, and another exit to the west. By the steel door there is a terminal with a red/blue/green color scheme.
+
 &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1588">
+        <command xml:space="preserve">r</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1576">
@@ -987,7 +1055,218 @@ The walkway is a pathway outside. The snow is billowing and piling up in large a
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1546"></child>
             <child nodeId="node-1081"></child>
+            <child nodeId="node-1594"></child>
         </children>
+    </item>
+    <item nodeId="node-1594">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hut
+A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is a large steel door to the east, and another exit to the west. By the steel door there is a terminal with a red/blue/green color scheme.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1595"></child>
+        </children>
+    </item>
+    <item nodeId="node-1595">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Yard
+A run down yard, complete with a snowed-out garden.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1596"></child>
+            <child nodeId="node-1609"></child>
+        </children>
+    </item>
+    <item nodeId="node-1609">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1610"></child>
+        </children>
+    </item>
+    <item nodeId="node-1610">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Wasteland
+An empty, dead looking field.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1611"></child>
+        </children>
+    </item>
+    <item nodeId="node-1611">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Yard
+A run down yard, complete with a snowed-out garden.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1612"></child>
+        </children>
+    </item>
+    <item nodeId="node-1612">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Wasteland
+An empty, dead looking field.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1613"></child>
+        </children>
+    </item>
+    <item nodeId="node-1613">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Barrens
+Somehow, this field is even deader than the wasteland.
+
+You can see Boltz here.
+
+Boltz heads to Lake. 
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1614"></child>
+        </children>
+    </item>
+    <item nodeId="node-1614">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Lake
+A lake that appears to have frozen over solid.
+
+You can see Boltz here.
+
+Boltz heads to Corn field. 
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1615"></child>
+        </children>
+    </item>
+    <item nodeId="node-1615">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Corn field
+You can see Boltz here.
+
+Boltz heads to Meadow. 
+
+
+    *** The horde rushes you, and you get attacked. ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1596">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1597"></child>
+        </children>
+    </item>
+    <item nodeId="node-1597">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">
+
+
+You awake, cold and wet. Your clothes are soaked, and the only source of heat is the fire that you are huddled by. In the distance, you hear a horde of robots, and you realize they are coming to get you.
+
+The Village
+An Interactive Fiction by kgoodrowe20
+Release 1 / Serial number 190411 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Hut
+A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is a large steel door to the east, and another exit to the west. By the steel door there is a terminal with a red/blue/green color scheme.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1598"></child>
+        </children>
+    </item>
+    <item nodeId="node-1598">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening steel door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1599"></child>
+        </children>
+    </item>
+    <item nodeId="node-1599">
+        <command xml:space="preserve">682</command>
+        <result xml:space="preserve">The terminal says: CORRECT PASSWORD, UNLOCKING DOOR.
+The door clicks.
+You hear the roar of the horde to the distant west.
+
+You hear the horde nearby to the north.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1600"></child>
+        </children>
+    </item>
+    <item nodeId="node-1600">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1601"></child>
+        </children>
+    </item>
+    <item nodeId="node-1601">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1602"></child>
+        </children>
+    </item>
+    <item nodeId="node-1602">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1603"></child>
+        </children>
+    </item>
+    <item nodeId="node-1603">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening steel door)
+
+Walkway
+The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. To the east you see the faint glow of a distant village.
+
+You hear the horde nearby to the north.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1604"></child>
+        </children>
+    </item>
+    <item nodeId="node-1604">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1081">
         <command xml:space="preserve">e</command>

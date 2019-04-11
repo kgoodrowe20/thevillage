@@ -21,9 +21,12 @@ the horde is a man.
 Every turn: 
 	if horde is in a room (called the current space): 
 		let next space be a random room which is adjacent to the current space; 
-		if horde is visible, say "The horde heads to [the next space]. ";
+		if horde is visible, end the story saying "The horde rushes you, and you get attacked.";
 		move horde to next space;
-		if horde is visible, end the story saying "The horde rushes you, and you get attacked."
+		if horde is visible, end the story saying "The horde rushes you, and you get attacked.";
+	If horde is in a room adjacent to player:
+		say "you hear the horde nearby"
+		
 
 [add warning for horde]
 	
@@ -109,17 +112,22 @@ instead of passunlocking:
 	say "You hear the roar of the horde to the distant west.";
 	now steel door is unlocked;
 	now horde is in wasteland.
+	
 
 For printing a locale paragraph about a door (called the item) 
     (this is the don't mention doors in room descriptions rule): 
     set the locale priority of the item to 0; 
     continue the activity.
 
-Wasteland is a room. It is west of Yard.
+Wasteland is a room. It is west of Yard. "An empty, dead looking field."
 
-Yard is a room. It is west of hut. 
+Barrens is a room. It is south of wasteland. "Somehow, this field is even deader than the wasteland."
 
-dog is a man in Yard.
+Lake is a room. It is east of Barrens and west of Corn field. "A lake that appears to have frozen over solid."
+
+
+Yard is a room. It is west of hut. "A run down yard, complete with a snowed-out garden."
+
 
 [Before going from the hut to the yard:
 	dog is now following player.]
