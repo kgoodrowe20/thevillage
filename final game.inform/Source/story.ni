@@ -153,15 +153,30 @@ instead of dropping glowing screw:
 
 [cut down fence to access mountain]
 
-Mountain is a room. 
+Mountain is a room. "A snowy mountain path."
 
-Summit is a room. It is north of mountain.
-	holy battery is a thing in summit.
+Summit is a room. It is north of mountain. "After a long trek up the mountain, you reach the summit. You can see everything from up here! There is not much up here except for a pile of rocks and a shrine."
+	
+	rocks is scenery in summit. The description is "A pile of stones."
+	
+	rock is an undescribed thing in summit. The description is "A stone."
+	
+	shrine is scenery in summit. The description is "A shrine with what appears to be a glowing battery sitting inside it." 
+	
+	understand "battery" as holy battery.
+	
+	understand "glowing battery" as holy battery.
+	
+	holy battery is an undescribed thing in summit. The description is "A glowing battery."
 
-Corn field is a room. It is south of walkway.
+Corn field is a room. It is south of walkway. "A supposed corn field, but no corn grows here."
 
-Meadow is a room. It is south of Corn field.
-	tree is scenery in meadow.
+Meadow is a room. It is south of Corn field. The description is "A nice little meadow in the summertime, probably; now it is covered in snow, and has a large, naked tree in the center."
+
+tree is scenery in meadow.
+
+instead of cutting tree:
+	say "That would waste too much energy."
 
 Village is a room. It is east of Walkway. The description is "The village is nearly abandoned, with empty houses and damaged buildings. The walkway is to the west, and you can see a church to the east."
 
@@ -170,7 +185,8 @@ houses is scenery in village. "Broken down houses line the edge of the village. 
 	axe is an undescribed thing in village. the description is "A heavy, rusted woodcutter's axe."
 	
 
-Church is a room. It is east of village.
-	altar is scenery in church.
+Church is a room. It is east of village. "An average looking church, except the altar at the front looks a little strange."
+
+altar is scenery in church. "Upon closer inspection, there is a small slot in the altar."
 	
 	
