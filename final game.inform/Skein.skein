@@ -8,10 +8,11 @@
 
 
 You awake, cold and wet. Your clothes are soaked, and the only source of heat is the fire that you are huddled by. In the distance, you hear a horde of robots, and you realize they are coming to get you.
+You are immensely hungry, your goal is the find food.
 
 The Village
 An Interactive Fiction by kgoodrowe20
-Release 1 / Serial number 190411 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 190415 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Hut
 A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is a large steel door to the east, and another exit to the west. By the steel door there is a terminal with a red/blue/green color scheme.
@@ -574,6 +575,8 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
         <result xml:space="preserve">(first opening steel door)
 It seems to be locked.
 
+The sounds of the horde come from the west.
+
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1067"></child>
@@ -818,6 +821,8 @@ It seems to be locked.
         <result xml:space="preserve">The terminal says: CORRECT PASSWORD, UNLOCKING DOOR.
 The door clicks.
 
+The sounds of the horde come from the west.
+
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1068"></child>
@@ -828,12 +833,64 @@ The door clicks.
         <result xml:space="preserve">(first opening steel door)
 
 Walkway
-The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way.
+The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. To the east you see the faint glow of a distant village.
+
+The sounds of the horde come from the south.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1069"></child>
+            <child nodeId="node-1627"></child>
         </children>
+    </item>
+    <item nodeId="node-1627">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Corn field
+A supposed corn field, but no corn grows here.
+
+The horde is close.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1628"></child>
+        </children>
+    </item>
+    <item nodeId="node-1628">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">Are you sure you want to restart? </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1629"></child>
+        </children>
+    </item>
+    <item nodeId="node-1629">
+        <command xml:space="preserve">682</command>
+        <result xml:space="preserve">Please answer yes or no.&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1630"></child>
+        </children>
+    </item>
+    <item nodeId="node-1630">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">Please answer yes or no.&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1631"></child>
+        </children>
+    </item>
+    <item nodeId="node-1631">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">Please answer yes or no.&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1640"></child>
+        </children>
+    </item>
+    <item nodeId="node-1640">
+        <command xml:space="preserve">no</command>
+        <result xml:space="preserve">
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1069">
         <command xml:space="preserve">e</command>
@@ -943,9 +1000,11 @@ The walkway is a pathway outside. The snow is billowing and piling up in large a
         <command xml:space="preserve">682</command>
         <result xml:space="preserve">The terminal says: CORRECT PASSWORD, UNLOCKING DOOR.
 The door clicks.
-You hear the roar of the horde to the distant west.
 
-you hear the horde nearby
+The horde is close.
+
+You hear the sound of the horde coming from the west.
+
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1080"></child>
@@ -983,10 +1042,22 @@ You awake, cold and wet. Your clothes are soaked, and the only source of heat is
 
 The Village
 An Interactive Fiction by kgoodrowe20
-Release 1 / Serial number 190411 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 190415 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Hut
 A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is a large steel door to the east, and another exit to the west. By the steel door there is a terminal with a red/blue/green color scheme.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1623"></child>
+        </children>
+    </item>
+    <item nodeId="node-1623">
+        <command xml:space="preserve">682</command>
+        <result xml:space="preserve">The terminal says: CORRECT PASSWORD, UNLOCKING DOOR.
+The door clicks.
+
+You hear the sound of the horde coming from the west.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1050,6 +1121,11 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 
 Walkway
 The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. To the east you see the faint glow of a distant village.
+
+You can see Boltz here.
+
+Boltz heads to Corn field. 
+You hear the sound of the horde coming from the south.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

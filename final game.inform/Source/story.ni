@@ -1,7 +1,8 @@
 "The Village" by kgoodrowe20
 
 When play begins: 
-	say "You awake, cold and wet. Your clothes are soaked, and the only source of heat is the fire that you are huddled by. In the distance, you hear a horde of robots, and you realize they are coming to get you."
+	say "You awake, cold and wet. Your clothes are soaked, and the only source of heat is the fire that you are huddled by. In the distance, you hear a horde of robots, and you realize they are coming to get you.";
+	say "You are immensely hungry, your goal is the find food."
 
 Hut is a room. The description is "A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is a large steel door to the east, and another exit to the west. By the steel door there is a terminal with a red/blue/green color scheme."
 
@@ -9,14 +10,16 @@ Shelves is scenery in hut. "Hammers, nails, wire cutters, and other tools are sc
 
 	understand "shelf" as shelves.
 	
-Every turn: 
+[Every turn: 
 	if Boltz is in a room (called the current space): 
 		let next space be a random room which is adjacent to the current space; 
 		if Boltz is visible, say "Boltz heads to [the next space]. ";
 		move Boltz to next space;
-		if Boltz is visible, say "Boltz arrives from [the current space]. He greets you with the integrated monitor on his chest."
+		if Boltz is visible, say "Boltz arrives from [the current space]. He greets you with the integrated monitor on his chest."]
 
 the horde is a man.
+
+The description of the player is "Your clothes are wet, you're tired, and you're hungry."
 
 Every turn: 
 	if horde is in a room (called the current space): 
@@ -25,8 +28,11 @@ Every turn:
 		move horde to next space;
 		if horde is visible, end the story saying "The horde rushes you, and you get attacked.";
 	If horde is in a room adjacent to player:
-		say "you hear the horde nearby"
+		say "The horde is close."
 		
+Every turn:
+	   let the way be the best route from the location to horde; 
+           if the way is a direction, say "The sounds of the horde come from the [way]." 
 
 [add warning for horde]
 	
@@ -109,7 +115,6 @@ instead of incorrectpass:
 instead of passunlocking:
 	say "The terminal says: CORRECT PASSWORD, UNLOCKING DOOR.";
 	say "The door clicks.";
-	say "You hear the roar of the horde to the distant west.";
 	now steel door is unlocked;
 	now horde is in wasteland.
 	
@@ -181,12 +186,18 @@ instead of cutting tree:
 Village is a room. It is east of Walkway. The description is "The village is nearly abandoned, with empty houses and damaged buildings. The walkway is to the west, and you can see a church to the east."
 
 houses is scenery in village. "Broken down houses line the edge of the village. Behind one of them, you spot an axe."
-	Boltz is a man in village.
-	axe is an undescribed thing in village. the description is "A heavy, rusted woodcutter's axe."
+	[Boltz is a man in village.]
+	
+axe is an undescribed thing in village. the description is "A heavy, rusted woodcutter's axe."
 	
 
 Church is a room. It is east of village. "An average looking church, except the altar at the front looks a little strange."
 
-altar is scenery in church. "Upon closer inspection, there is a small slot in the altar."
+altar is scenery in church. it is an open openable container. "Upon closer inspection, there is a small slot in the altar. Perhaps something could be inserted into it?"
+
+instead of inserting holy battery into altar:
+	say "You put the battery into the altar";
+	remove holy battery from play;
+	end the story saying "The altar dispenses some food, which you eat, causing you to wake up in your bed!"
 	
 	
