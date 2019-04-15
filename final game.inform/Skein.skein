@@ -19,8 +19,12 @@ A hut that you found yourself awake in. Shelves line the wooden walls, cluttered
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1547"></child>
+        <children><child nodeId="node-1681"></child>
+            <child nodeId="node-1547"></child>
+            <child nodeId="node-1686"></child>
             <child nodeId="node-1079"></child>
+            <child nodeId="node-1709"></child>
+            <child nodeId="node-1677"></child>
             <child nodeId="node-1075"></child>
             <child nodeId="node-1071"></child>
             <child nodeId="node-1070"></child>
@@ -996,6 +1000,96 @@ The walkway is a pathway outside. The snow is billowing and piling up in large a
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-1677">
+        <command xml:space="preserve">break ice</command>
+        <result xml:space="preserve">You must supply a noun.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1680"></child>
+            <child nodeId="node-1678"></child>
+        </children>
+    </item>
+    <item nodeId="node-1678">
+        <command xml:space="preserve">x self</command>
+        <result xml:space="preserve">Your clothes are wet, you're tired, and you're hungry.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1680">
+        <command xml:space="preserve">break ice ice</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1709">
+        <command xml:space="preserve">ask</command>
+        <result xml:space="preserve">(yourself for steel door)
+You are carrying nothing.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1710"></child>
+        </children>
+    </item>
+    <item nodeId="node-1710">
+        <command xml:space="preserve">682</command>
+        <result xml:space="preserve">The terminal says: CORRECT PASSWORD, UNLOCKING DOOR.
+The door clicks.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1711"></child>
+        </children>
+    </item>
+    <item nodeId="node-1711">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening steel door)
+
+Walkway
+The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. To the east you see the faint glow of a distant village.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1715"></child>
+        </children>
+    </item>
+    <item nodeId="node-1715">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Village
+The village is nearly abandoned, with empty houses and damaged buildings. The walkway is to the west, and you can see a church to the east.
+
+You can see a robot (empty) here.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1716"></child>
+        </children>
+    </item>
+    <item nodeId="node-1716">
+        <command xml:space="preserve">x robot</command>
+        <result xml:space="preserve">The robot is empty.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1079">
         <command xml:space="preserve">682</command>
         <result xml:space="preserve">The terminal says: CORRECT PASSWORD, UNLOCKING DOOR.
@@ -1003,7 +1097,7 @@ The door clicks.
 
 The horde is close.
 
-You hear the sound of the horde coming from the west.
+The sounds of the horde come from the west.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1122,15 +1216,13 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 Walkway
 The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. To the east you see the faint glow of a distant village.
 
-You can see Boltz here.
-
-Boltz heads to Corn field. 
-You hear the sound of the horde coming from the south.
+The sounds of the horde come from the south.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1546"></child>
             <child nodeId="node-1081"></child>
+            <child nodeId="node-1643"></child>
             <child nodeId="node-1594"></child>
         </children>
     </item>
@@ -1344,13 +1436,447 @@ You hear the horde nearby to the north.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-1643">
+        <command xml:space="preserve">take axe</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1644"></child>
+        </children>
+    </item>
+    <item nodeId="node-1644">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Village
+The village is nearly abandoned, with empty houses and damaged buildings. The walkway is to the west, and you can see a church to the east.
+
+The horde is close.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1645"></child>
+        </children>
+    </item>
+    <item nodeId="node-1645">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Church
+An average looking church, except the altar at the front looks a little strange.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1646"></child>
+        </children>
+    </item>
+    <item nodeId="node-1646">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Village
+The village is nearly abandoned, with empty houses and damaged buildings. The walkway is to the west, and you can see a church to the east.
+
+The horde is close.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1647"></child>
+        </children>
+    </item>
+    <item nodeId="node-1647">
+        <command xml:space="preserve">take axe</command>
+        <result xml:space="preserve">Taken.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1648"></child>
+        </children>
+    </item>
+    <item nodeId="node-1648">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Church
+An average looking church, except the altar at the front looks a little strange.
+
+The horde is close.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1649"></child>
+        </children>
+    </item>
+    <item nodeId="node-1649">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Village
+The village is nearly abandoned, with empty houses and damaged buildings. The walkway is to the west, and you can see a church to the east.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1650"></child>
+        </children>
+    </item>
+    <item nodeId="node-1650">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Walkway
+The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. To the east you see the faint glow of a distant village.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1651"></child>
+        </children>
+    </item>
+    <item nodeId="node-1651">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1652"></child>
+        </children>
+    </item>
+    <item nodeId="node-1652">
+        <command xml:space="preserve">cut fence</command>
+        <result xml:space="preserve">You cut down the fence, gaining access to the mountain. You see a glowing screw in the rubble and take it.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1653"></child>
+        </children>
+    </item>
+    <item nodeId="node-1653">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Mountain
+A snowy mountain path.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1654"></child>
+        </children>
+    </item>
+    <item nodeId="node-1654">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Walkway
+ The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north. To the east you see the faint glow of a distant village.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1655"></child>
+        </children>
+    </item>
+    <item nodeId="node-1655">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Mountain
+A snowy mountain path.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1656"></child>
+        </children>
+    </item>
+    <item nodeId="node-1656">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Summit
+After a long trek up the mountain, you reach the summit. You can see everything from up here! There is not much up here except for a pile of rocks and a shrine.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1657"></child>
+        </children>
+    </item>
+    <item nodeId="node-1657">
+        <command xml:space="preserve">break</command>
+        <result xml:space="preserve">What do you want to break?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1658"></child>
+        </children>
+    </item>
+    <item nodeId="node-1658">
+        <command xml:space="preserve">break ice</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1659"></child>
+        </children>
+    </item>
+    <item nodeId="node-1659">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1660"></child>
+        </children>
+    </item>
+    <item nodeId="node-1660">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Mountain
+A snowy mountain path.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1661"></child>
+        </children>
+    </item>
+    <item nodeId="node-1661">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Summit
+After a long trek up the mountain, you reach the summit. You can see everything from up here! There is not much up here except for a pile of rocks and a shrine.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1662"></child>
+        </children>
+    </item>
+    <item nodeId="node-1662">
+        <command xml:space="preserve">x shrine</command>
+        <result xml:space="preserve">A shrine with what appears to be a glowing battery sitting inside it.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1663"></child>
+        </children>
+    </item>
+    <item nodeId="node-1663">
+        <command xml:space="preserve">take battery</command>
+        <result xml:space="preserve">Taken.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1664"></child>
+        </children>
+    </item>
+    <item nodeId="node-1664">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Mountain
+A snowy mountain path.
+
+
+
+    *** The horde rushes you, and you get attacked. ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1665"></child>
+        </children>
+    </item>
+    <item nodeId="node-1665">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">
+
+
+You awake, cold and wet. Your clothes are soaked, and the only source of heat is the fire that you are huddled by. In the distance, you hear a horde of robots, and you realize they are coming to get you.
+You are immensely hungry, your goal is the find food.
+
+The Village
+An Interactive Fiction by kgoodrowe20
+Release 1 / Serial number 190415 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Hut
+A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is a large steel door to the east, and another exit to the west. By the steel door there is a terminal with a red/blue/green color scheme.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1666"></child>
+        </children>
+    </item>
+    <item nodeId="node-1666">
+        <command xml:space="preserve">682</command>
+        <result xml:space="preserve">The terminal says: CORRECT PASSWORD, UNLOCKING DOOR.
+The door clicks.
+
+The horde is close.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1667"></child>
+        </children>
+    </item>
+    <item nodeId="node-1667">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening steel door)
+
+Walkway
+The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. To the east you see the faint glow of a distant village.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1668"></child>
+        </children>
+    </item>
+    <item nodeId="node-1668">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Village
+The village is nearly abandoned, with empty houses and damaged buildings. The walkway is to the west, and you can see a church to the east.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1669"></child>
+        </children>
+    </item>
+    <item nodeId="node-1669">
+        <command xml:space="preserve">take axe</command>
+        <result xml:space="preserve">Taken.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1670"></child>
+        </children>
+    </item>
+    <item nodeId="node-1670">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Walkway
+The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. To the east you see the faint glow of a distant village.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1671"></child>
+        </children>
+    </item>
+    <item nodeId="node-1671">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hut
+A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is a large steel door to the east, and another exit to the west. By the steel door there is a terminal with a red/blue/green color scheme.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1672"></child>
+        </children>
+    </item>
+    <item nodeId="node-1672">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Yard
+A run down yard, complete with a snowed-out garden.
+
+The sounds of the horde come from the east.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1673"></child>
+        </children>
+    </item>
+    <item nodeId="node-1673">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+The sounds of the horde come from the east.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1674"></child>
+        </children>
+    </item>
+    <item nodeId="node-1674">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Wasteland
+An empty, dead looking field.
+
+The sounds of the horde come from the east.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1675"></child>
+        </children>
+    </item>
+    <item nodeId="node-1675">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+The sounds of the horde come from the east.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1676"></child>
+        </children>
+    </item>
+    <item nodeId="node-1676">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Barrens
+Somehow, this field is even deader than the wasteland.
+
+The sounds of the horde come from the north.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1081">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Village
 The village is nearly abandoned, with empty houses and damaged buildings. The walkway is to the west, and you can see a church to the east.
 
-You can see Boltz here.
+You can see a robot (empty) here.
+
+The horde is close.
+
+The sounds of the horde come from the west.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1378,6 +1904,8 @@ You can see Boltz here.
         <command xml:space="preserve">take axe</command>
         <result xml:space="preserve">Taken.
 
+The sounds of the horde come from the west.
+
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1085"></child>
@@ -1388,6 +1916,10 @@ You can see Boltz here.
         <result xml:space="preserve">
 Walkway
 The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. To the east you see the faint glow of a distant village.
+
+The horde is close.
+
+The sounds of the horde come from the south.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1425,9 +1957,12 @@ Mountain
         <command xml:space="preserve">cut fence</command>
         <result xml:space="preserve">You cut down the fence, gaining access to the mountain. You see a glowing screw in the rubble and take it.
 
+The sounds of the horde come from the south.
+
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1090"></child>
+        <children><child nodeId="node-1723"></child>
+            <child nodeId="node-1090"></child>
         </children>
     </item>
     <item nodeId="node-1090">
@@ -1460,9 +1995,386 @@ Walkway
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-1723">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Village
+The village is nearly abandoned, with empty houses and damaged buildings. The walkway is to the west, and you can see a church to the east.
+
+You can see a robot (empty) here.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1724"></child>
+        </children>
+    </item>
+    <item nodeId="node-1724">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  glowing screw
+  axe
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1725"></child>
+        </children>
+    </item>
+    <item nodeId="node-1725">
+        <command xml:space="preserve">insert glowing screw into robot</command>
+        <result xml:space="preserve">The robot powers on. It greets you with an automated message: I AM BOLTZ, PERSONAL ASSISTANCE DEVICE. HOW MAY I HELP YOU TODAY?
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1735"></child>
+        </children>
+    </item>
+    <item nodeId="node-1735">
+        <command xml:space="preserve">ask boltz about horde</command>
+        <result xml:space="preserve">He beeps, almost as if a warning.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1546">
         <command xml:space="preserve">692</command>
         <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1686">
+        <command xml:space="preserve">68</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1687"></child>
+        </children>
+    </item>
+    <item nodeId="node-1687">
+        <command xml:space="preserve">682</command>
+        <result xml:space="preserve">The terminal says: CORRECT PASSWORD, UNLOCKING DOOR.
+The door clicks.
+
+The horde is close.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1688"></child>
+        </children>
+    </item>
+    <item nodeId="node-1688">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening steel door)
+
+Walkway
+The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. To the east you see the faint glow of a distant village.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1689"></child>
+        </children>
+    </item>
+    <item nodeId="node-1689">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Village
+The village is nearly abandoned, with empty houses and damaged buildings. The walkway is to the west, and you can see a church to the east.
+
+You can see a robot here.
+
+The horde is close.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1690"></child>
+        </children>
+    </item>
+    <item nodeId="node-1690">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Walkway
+The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. To the east you see the faint glow of a distant village.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1691"></child>
+        </children>
+    </item>
+    <item nodeId="node-1691">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Village
+The village is nearly abandoned, with empty houses and damaged buildings. The walkway is to the west, and you can see a church to the east.
+
+You can see a robot here.
+
+The horde is close.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1692"></child>
+        </children>
+    </item>
+    <item nodeId="node-1692">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Walkway
+The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. To the east you see the faint glow of a distant village.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1693"></child>
+        </children>
+    </item>
+    <item nodeId="node-1693">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Village
+The village is nearly abandoned, with empty houses and damaged buildings. The walkway is to the west, and you can see a church to the east.
+
+You can see a robot here.
+
+The horde is close.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1694"></child>
+        </children>
+    </item>
+    <item nodeId="node-1694">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Walkway
+The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. To the east you see the faint glow of a distant village.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1695"></child>
+        </children>
+    </item>
+    <item nodeId="node-1695">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Village
+The village is nearly abandoned, with empty houses and damaged buildings. The walkway is to the west, and you can see a church to the east.
+
+You can see a robot here.
+
+The horde is close.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1696"></child>
+        </children>
+    </item>
+    <item nodeId="node-1696">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Walkway
+The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. To the east you see the faint glow of a distant village.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1697"></child>
+        </children>
+    </item>
+    <item nodeId="node-1697">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Village
+The village is nearly abandoned, with empty houses and damaged buildings. The walkway is to the west, and you can see a church to the east.
+
+You can see a robot here.
+
+The horde is close.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1698"></child>
+        </children>
+    </item>
+    <item nodeId="node-1698">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Walkway
+The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. To the east you see the faint glow of a distant village.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1699"></child>
+        </children>
+    </item>
+    <item nodeId="node-1699">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Village
+The village is nearly abandoned, with empty houses and damaged buildings. The walkway is to the west, and you can see a church to the east.
+
+You can see a robot here.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1700"></child>
+        </children>
+    </item>
+    <item nodeId="node-1700">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1701"></child>
+        </children>
+    </item>
+    <item nodeId="node-1701">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1702"></child>
+        </children>
+    </item>
+    <item nodeId="node-1702">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Walkway
+The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. To the east you see the faint glow of a distant village.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1703"></child>
+        </children>
+    </item>
+    <item nodeId="node-1703">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Corn field
+A supposed corn field, but no corn grows here.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1704"></child>
+        </children>
+    </item>
+    <item nodeId="node-1704">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Lake
+A lake that appears to have frozen over solid. The barrens are to the west, and a corn field is to the east.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1705"></child>
+        </children>
+    </item>
+    <item nodeId="node-1705">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Barrens
+Somehow, this field is even deader than the wasteland. The wasteland is north and a lake is east.
+
+The horde is close.
+
+The sounds of the horde come from the north.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1706"></child>
+        </children>
+    </item>
+    <item nodeId="node-1706">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Wasteland
+An empty, dead looking field. There is a yard to the east, and the barrens are south.
+
+The sounds of the horde come from the east.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1707"></child>
+        </children>
+    </item>
+    <item nodeId="node-1707">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Yard
+A run down yard, complete with a snowed-out garden. A hut is to the east, and the wasteland is to the west.
+
+The horde is close.
+
+
+
+    *** The horde rushes you, and you get attacked. ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1708"></child>
+        </children>
+    </item>
+    <item nodeId="node-1708">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">
+
+
+You awake, cold and wet. Your clothes are soaked, and the only source of heat is the fire that you are huddled by. In the distance, you hear a horde of robots, and you realize they are coming to get you.
+You are immensely hungry, your goal is the find food.
+
+The Village
+An Interactive Fiction by kgoodrowe20
+Release 1 / Serial number 190415 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Hut
+A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is a large steel door to the east, and another exit to the west. By the steel door there is a terminal with a red/blue/green color scheme.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1694,6 +2606,66 @@ The walkway is a pathway outside. The snow is billowing and piling up in large a
         <result xml:space="preserve">
 Village
 The village is nearly abandoned, with empty houses and damaged buildings. The walkway is to the west, and you can see a church to the east.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1681">
+        <command xml:space="preserve">4</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1682"></child>
+        </children>
+    </item>
+    <item nodeId="node-1682">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening steel door)
+It seems to be locked.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1683"></child>
+        </children>
+    </item>
+    <item nodeId="node-1683">
+        <command xml:space="preserve">682</command>
+        <result xml:space="preserve">The terminal says: CORRECT PASSWORD, UNLOCKING DOOR.
+The door clicks.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1684"></child>
+        </children>
+    </item>
+    <item nodeId="node-1684">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening steel door)
+
+Walkway
+The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. To the east you see the faint glow of a distant village.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1685"></child>
+        </children>
+    </item>
+    <item nodeId="node-1685">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+village
+The village is nearly abandoned, with empty houses and damaged buildings. The walkway is to the west, and you can see a church to the east.
+
+You can see robot here.
+
+The sounds of the horde come from the west.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

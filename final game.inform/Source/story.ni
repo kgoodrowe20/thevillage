@@ -8,14 +8,27 @@ Hut is a room. The description is "A hut that you found yourself awake in. Shelv
 
 Shelves is scenery in hut. "Hammers, nails, wire cutters, and other tools are scattered all over the shelves. There is a bright red toolbox sitting on one of the shelves. There's a shovel behind the shelves. Next to the shelves, you can see an open metal box attached to the wall. There are wires inside."
 
-	understand "shelf" as shelves.
-	
-[Every turn: 
-	if Boltz is in a room (called the current space): 
-		let next space be a random room which is adjacent to the current space; 
-		if Boltz is visible, say "Boltz heads to [the next space]. ";
-		move Boltz to next space;
-		if Boltz is visible, say "Boltz arrives from [the current space]. He greets you with the integrated monitor on his chest."]
+understand "shelf" as shelves.
+
+a robot is a thing. It is in Village. it is an open openable container.The description is "A rusty robot with the word 'Boltz' inscribed on its chest. It seems to be missing a screw or two."
+
+understand "robot" as the robot.
+understand "the robot" as the robot.
+
+Boltz is a man.
+
+instead of inserting glowing screw into robot:
+	say "The robot powers on. It greets you with an automated message: I AM BOLTZ, PERSONAL ASSISTANCE DEVICE. HOW MAY I HELP YOU TODAY?";
+	remove robot from play;
+	move boltz to village.
+
+After asking the Boltz about "horde", say "He beeps, almost as if a warning."
+After asking the Boltz about "food", say "He boops and makes a cross with his arms."
+After asking the Boltz about "clothes", say "He shrugs."
+After asking the Boltz about "battery", say "He points towards the church excitedly."
+After asking the Boltz about "holy battery", say "He points towards the church excitedly."
+After asking the Boltz about "wasteland", say "He shakes his head."
+After asking the Boltz about "barrens", say "He shakes his head."
 
 the horde is a man.
 
@@ -33,8 +46,6 @@ Every turn:
 Every turn:
 	   let the way be the best route from the location to horde; 
            if the way is a direction, say "The sounds of the horde come from the [way]." 
-
-[add warning for horde]
 	
 tools is scenery in hut. "Assorted tools."
 
@@ -124,20 +135,22 @@ For printing a locale paragraph about a door (called the item)
     set the locale priority of the item to 0; 
     continue the activity.
 
-Wasteland is a room. It is west of Yard. "An empty, dead looking field."
+Wasteland is a room. It is west of Yard. "An empty, dead looking field. There is a yard to the east, and the barrens are south."
 
-Barrens is a room. It is south of wasteland. "Somehow, this field is even deader than the wasteland."
+Barrens is a room. It is south of wasteland. "Somehow, this field is even deader than the wasteland. The wasteland is north and a lake is east."
 
-Lake is a room. It is east of Barrens and west of Corn field. "A lake that appears to have frozen over solid."
+Lake is a room. It is east of Barrens and west of Corn field. "A lake that appears to have frozen over solid. The barrens are to the west, and a corn field is to the east."
 
+ice is scenery in lake. "Slippery and slide-y."
 
-Yard is a room. It is west of hut. "A run down yard, complete with a snowed-out garden."
+icebreak is an action applying to nothing.
 
+understand "break ice" as icebreak.
 
-[Before going from the hut to the yard:
-	dog is now following player.]
+instead of icebreak:
+	say "[if player is holding axe]You could, but should you? [otherwise]How do you expect to do that?"
 
-[dog in yard, dog is a follower]
+Yard is a room. It is west of hut. "A run down yard, complete with a snowed-out garden. A hut is to the east, and the wasteland is to the west."
 
 Walkway is a room. "[if player is holding glowing screw] The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north. To the east you see the faint glow of a distant village.[otherwise]The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. To the east you see the faint glow of a distant village."
  
@@ -154,13 +167,13 @@ instead of cutting fence:
 [give the player glowing screw]
 	
 instead of dropping glowing screw:
-	say "You might need that!"
+	say "You might need that! But then again, maybe not."
 
 [cut down fence to access mountain]
 
 Mountain is a room. "A snowy mountain path."
 
-Summit is a room. It is north of mountain. "After a long trek up the mountain, you reach the summit. You can see everything from up here! There is not much up here except for a pile of rocks and a shrine."
+Summit is a room. It is north of mountain. "After a long trek up the mountain, you reach the summit. You can see everything from up here! There is not much here except for a pile of rocks and a shrine."
 	
 	rocks is scenery in summit. The description is "A pile of stones."
 	
@@ -178,7 +191,7 @@ Corn field is a room. It is south of walkway. "A supposed corn field, but no cor
 
 Meadow is a room. It is south of Corn field. The description is "A nice little meadow in the summertime, probably; now it is covered in snow, and has a large, naked tree in the center."
 
-tree is scenery in meadow.
+tree is scenery in meadow. "A big, old oak."
 
 instead of cutting tree:
 	say "That would waste too much energy."
@@ -186,11 +199,10 @@ instead of cutting tree:
 Village is a room. It is east of Walkway. The description is "The village is nearly abandoned, with empty houses and damaged buildings. The walkway is to the west, and you can see a church to the east."
 
 houses is scenery in village. "Broken down houses line the edge of the village. Behind one of them, you spot an axe."
-	[Boltz is a man in village.]
+
 	
 axe is an undescribed thing in village. the description is "A heavy, rusted woodcutter's axe."
 	
-
 Church is a room. It is east of village. "An average looking church, except the altar at the front looks a little strange."
 
 altar is scenery in church. it is an open openable container. "Upon closer inspection, there is a small slot in the altar. Perhaps something could be inserted into it?"
@@ -198,6 +210,6 @@ altar is scenery in church. it is an open openable container. "Upon closer inspe
 instead of inserting holy battery into altar:
 	say "You put the battery into the altar";
 	remove holy battery from play;
-	end the story saying "The altar dispenses some food, which you eat, causing you to wake up in your bed!"
+	end the story saying "The altar dispenses some food, which you eat, causing you to wake up in your bed! It was a dream the whole time!"
 	
 	
