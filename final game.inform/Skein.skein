@@ -157,9 +157,12 @@ The horde heads to Wasteland.
         <command xml:space="preserve">x shelves</command>
         <result xml:space="preserve">Hammers, nails, wire cutters, and other tools are scattered all over the shelves. There is a bright red toolbox sitting on one of the shelves. There's a shovel behind the shelves. Next to the shelves, you can see an open metal box attached to the wall. There are wires inside.
 
+The sounds of the horde come from the west.
+
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1013"></child>
+        <children><child nodeId="node-1737"></child>
+            <child nodeId="node-1013"></child>
         </children>
     </item>
     <item nodeId="node-1013">
@@ -174,6 +177,1277 @@ The horde heads to Wasteland.
     <item nodeId="node-1014">
         <command xml:space="preserve">x toolbox</command>
         <result xml:space="preserve">Toolbox is empty.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1737">
+        <command xml:space="preserve">x toolbox</command>
+        <result xml:space="preserve">In the toolbox are wire cutters, gloves and a manual.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1738"></child>
+        </children>
+    </item>
+    <item nodeId="node-1738">
+        <command xml:space="preserve">x manual</command>
+        <result xml:space="preserve">You see nothing special about the manual.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1739"></child>
+        </children>
+    </item>
+    <item nodeId="node-1739">
+        <command xml:space="preserve">take all</command>
+        <result xml:space="preserve">wire cutters: Taken.
+gloves: Taken.
+manual: Taken.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1740"></child>
+        </children>
+    </item>
+    <item nodeId="node-1740">
+        <command xml:space="preserve">x shelves</command>
+        <result xml:space="preserve">Hammers, nails, wire cutters, and other tools are scattered all over the shelves. There is a bright red toolbox sitting on one of the shelves. There's a shovel behind the shelves. Next to the shelves, you can see an open metal box attached to the wall. There are wires inside.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1741"></child>
+        </children>
+    </item>
+    <item nodeId="node-1741">
+        <command xml:space="preserve">x metal box</command>
+        <result xml:space="preserve">There are three wires: red, green, and blue.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1742"></child>
+        </children>
+    </item>
+    <item nodeId="node-1742">
+        <command xml:space="preserve">take all</command>
+        <result xml:space="preserve">There are none at all available!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1743"></child>
+        </children>
+    </item>
+    <item nodeId="node-1743">
+        <command xml:space="preserve">take wires</command>
+        <result xml:space="preserve">That's hardly portable.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1744"></child>
+        </children>
+    </item>
+    <item nodeId="node-1744">
+        <command xml:space="preserve">take shovel</command>
+        <result xml:space="preserve">Taken.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1745"></child>
+        </children>
+    </item>
+    <item nodeId="node-1745">
+        <command xml:space="preserve">x shelves</command>
+        <result xml:space="preserve">Hammers, nails, wire cutters, and other tools are scattered all over the shelves. There is a bright red toolbox sitting on one of the shelves. There's a shovel behind the shelves. Next to the shelves, you can see an open metal box attached to the wall. There are wires inside.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1746"></child>
+        </children>
+    </item>
+    <item nodeId="node-1746">
+        <command xml:space="preserve">x terminal</command>
+        <result xml:space="preserve">The terminal says: YOU ARE BEING RECORDED. PLEASE SAY THE PASSWORD INTO THE TERMINAL.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1747"></child>
+        </children>
+    </item>
+    <item nodeId="node-1747">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening steel door)
+It seems to be locked.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1748"></child>
+        </children>
+    </item>
+    <item nodeId="node-1748">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Yard
+A run down yard, complete with a snowed-out garden. A hut is to the east, and the wasteland is to the west.
+
+The sounds of the horde come from the east.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1749"></child>
+        </children>
+    </item>
+    <item nodeId="node-1749">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Wasteland
+An empty, dead looking field. There is a yard to the east, and the barrens are south.
+
+The sounds of the horde come from the east.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1750"></child>
+        </children>
+    </item>
+    <item nodeId="node-1750">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Yard
+A run down yard, complete with a snowed-out garden. A hut is to the east, and the wasteland is to the west.
+
+The sounds of the horde come from the east.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1751"></child>
+        </children>
+    </item>
+    <item nodeId="node-1751">
+        <command xml:space="preserve">x garden</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1752"></child>
+        </children>
+    </item>
+    <item nodeId="node-1752">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hut
+A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is a large steel door to the east, and another exit to the west. By the steel door there is a terminal with a red/blue/green color scheme.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1753"></child>
+        </children>
+    </item>
+    <item nodeId="node-1753">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Yard
+A run down yard, complete with a snowed-out garden. A hut is to the east, and the wasteland is to the west.
+
+The sounds of the horde come from the east.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1754"></child>
+        </children>
+    </item>
+    <item nodeId="node-1754">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Wasteland
+An empty, dead looking field. There is a yard to the east, and the barrens are south.
+
+The sounds of the horde come from the east.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1755"></child>
+        </children>
+    </item>
+    <item nodeId="node-1755">
+        <command xml:space="preserve">search field</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1756"></child>
+        </children>
+    </item>
+    <item nodeId="node-1756">
+        <command xml:space="preserve">x field</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1757"></child>
+        </children>
+    </item>
+    <item nodeId="node-1757">
+        <command xml:space="preserve">x wasteland</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1758"></child>
+        </children>
+    </item>
+    <item nodeId="node-1758">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Barrens
+Somehow, this field is even deader than the wasteland. The wasteland is north and a lake is east.
+
+The sounds of the horde come from the north.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1759"></child>
+        </children>
+    </item>
+    <item nodeId="node-1759">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Lake
+A lake that appears to have frozen over solid. The barrens are to the west, and a corn field is to the east.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1760"></child>
+        </children>
+    </item>
+    <item nodeId="node-1760">
+        <command xml:space="preserve">go to yard</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1761"></child>
+        </children>
+    </item>
+    <item nodeId="node-1761">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  Shovel
+  a manual
+  gloves
+  wire cutters
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1762"></child>
+        </children>
+    </item>
+    <item nodeId="node-1762">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1763"></child>
+        </children>
+    </item>
+    <item nodeId="node-1763">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Corn field
+A supposed corn field, but no corn grows here.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1764"></child>
+        </children>
+    </item>
+    <item nodeId="node-1764">
+        <command xml:space="preserve">dig with shovel</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1765"></child>
+        </children>
+    </item>
+    <item nodeId="node-1765">
+        <command xml:space="preserve">use shovel</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1766"></child>
+        </children>
+    </item>
+    <item nodeId="node-1766">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Lake
+A lake that appears to have frozen over solid. The barrens are to the west, and a corn field is to the east.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1767"></child>
+        </children>
+    </item>
+    <item nodeId="node-1767">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Barrens
+Somehow, this field is even deader than the wasteland. The wasteland is north and a lake is east.
+
+The sounds of the horde come from the north.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1768"></child>
+        </children>
+    </item>
+    <item nodeId="node-1768">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Wasteland
+An empty, dead looking field. There is a yard to the east, and the barrens are south.
+
+The sounds of the horde come from the east.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1769"></child>
+        </children>
+    </item>
+    <item nodeId="node-1769">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Yard
+A run down yard, complete with a snowed-out garden. A hut is to the east, and the wasteland is to the west.
+
+The sounds of the horde come from the east.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1770"></child>
+        </children>
+    </item>
+    <item nodeId="node-1770">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+The sounds of the horde come from the east.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1771"></child>
+        </children>
+    </item>
+    <item nodeId="node-1771">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Wasteland
+An empty, dead looking field. There is a yard to the east, and the barrens are south.
+
+The sounds of the horde come from the east.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1772"></child>
+        </children>
+    </item>
+    <item nodeId="node-1772">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Barrens
+Somehow, this field is even deader than the wasteland. The wasteland is north and a lake is east.
+
+The sounds of the horde come from the north.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1773"></child>
+        </children>
+    </item>
+    <item nodeId="node-1773">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Lake
+A lake that appears to have frozen over solid. The barrens are to the west, and a corn field is to the east.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1774"></child>
+        </children>
+    </item>
+    <item nodeId="node-1774">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Corn field
+A supposed corn field, but no corn grows here.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1775"></child>
+        </children>
+    </item>
+    <item nodeId="node-1775">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Walkway
+The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. To the east you see the faint glow of a distant village.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1776"></child>
+        </children>
+    </item>
+    <item nodeId="node-1776">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1777"></child>
+        </children>
+    </item>
+    <item nodeId="node-1777">
+        <command xml:space="preserve">x fence</command>
+        <result xml:space="preserve">You see nothing special about Fence.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1778"></child>
+        </children>
+    </item>
+    <item nodeId="node-1778">
+        <command xml:space="preserve">break fence</command>
+        <result xml:space="preserve">Violence isn't the answer to this one.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1779"></child>
+        </children>
+    </item>
+    <item nodeId="node-1779">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Village
+The village is nearly abandoned, with empty houses and damaged buildings. The walkway is to the west, and you can see a church to the east.
+
+You can see a robot (empty) here.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1780"></child>
+        </children>
+    </item>
+    <item nodeId="node-1780">
+        <command xml:space="preserve">x robot</command>
+        <result xml:space="preserve">A rusty robot with the word "Boltz" inscribed on its chest. It seems to be missing a screw or two.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1781"></child>
+        </children>
+    </item>
+    <item nodeId="node-1781">
+        <command xml:space="preserve">take robot</command>
+        <result xml:space="preserve">Taken.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1782"></child>
+        </children>
+    </item>
+    <item nodeId="node-1782">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Church
+An average looking church, except the altar at the front looks a little strange.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1783"></child>
+        </children>
+    </item>
+    <item nodeId="node-1783">
+        <command xml:space="preserve">x altar</command>
+        <result xml:space="preserve">Upon closer inspection, there is a small slot in the altar. Perhaps something could be inserted into it?
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1784"></child>
+        </children>
+    </item>
+    <item nodeId="node-1784">
+        <command xml:space="preserve">insert shovel in to slot</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1785"></child>
+        </children>
+    </item>
+    <item nodeId="node-1785">
+        <command xml:space="preserve">insert shovel in to altat</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1786"></child>
+        </children>
+    </item>
+    <item nodeId="node-1786">
+        <command xml:space="preserve">insert shovel in to altar</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1787"></child>
+        </children>
+    </item>
+    <item nodeId="node-1787">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a robot (open but empty)
+  Shovel
+  a manual
+  gloves
+  wire cutters
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1788"></child>
+        </children>
+    </item>
+    <item nodeId="node-1788">
+        <command xml:space="preserve">insert manual in to slot</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1789"></child>
+        </children>
+    </item>
+    <item nodeId="node-1789">
+        <command xml:space="preserve">insert manual in to altar</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1790"></child>
+        </children>
+    </item>
+    <item nodeId="node-1790">
+        <command xml:space="preserve">insert manual into altar</command>
+        <result xml:space="preserve">You put the manual into altar.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1791"></child>
+        </children>
+    </item>
+    <item nodeId="node-1791">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Church
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1792"></child>
+        </children>
+    </item>
+    <item nodeId="node-1792">
+        <command xml:space="preserve">x chhurch</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1793"></child>
+        </children>
+    </item>
+    <item nodeId="node-1793">
+        <command xml:space="preserve">x church</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1794"></child>
+        </children>
+    </item>
+    <item nodeId="node-1794">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Village
+The village is nearly abandoned, with empty houses and damaged buildings. The walkway is to the west, and you can see a church to the east.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1795"></child>
+        </children>
+    </item>
+    <item nodeId="node-1795">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Walkway
+The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. To the east you see the faint glow of a distant village.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1796"></child>
+        </children>
+    </item>
+    <item nodeId="node-1796">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1797"></child>
+        </children>
+    </item>
+    <item nodeId="node-1797">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">(first opening steel door)
+It seems to be locked.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1798"></child>
+        </children>
+    </item>
+    <item nodeId="node-1798">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Village
+The village is nearly abandoned, with empty houses and damaged buildings. The walkway is to the west, and you can see a church to the east.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1799"></child>
+        </children>
+    </item>
+    <item nodeId="node-1799">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Walkway
+The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. To the east you see the faint glow of a distant village.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1800"></child>
+        </children>
+    </item>
+    <item nodeId="node-1800">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Corn field
+A supposed corn field, but no corn grows here.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1801"></child>
+        </children>
+    </item>
+    <item nodeId="node-1801">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Lake
+A lake that appears to have frozen over solid. The barrens are to the west, and a corn field is to the east.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1802"></child>
+        </children>
+    </item>
+    <item nodeId="node-1802">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1803"></child>
+        </children>
+    </item>
+    <item nodeId="node-1803">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Barrens
+Somehow, this field is even deader than the wasteland. The wasteland is north and a lake is east.
+
+The sounds of the horde come from the north.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1804"></child>
+        </children>
+    </item>
+    <item nodeId="node-1804">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Wasteland
+An empty, dead looking field. There is a yard to the east, and the barrens are south.
+
+The sounds of the horde come from the east.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1805"></child>
+        </children>
+    </item>
+    <item nodeId="node-1805">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Yard
+A run down yard, complete with a snowed-out garden. A hut is to the east, and the wasteland is to the west.
+
+The sounds of the horde come from the east.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1806"></child>
+        </children>
+    </item>
+    <item nodeId="node-1806">
+        <command xml:space="preserve">dig garden</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1807"></child>
+        </children>
+    </item>
+    <item nodeId="node-1807">
+        <command xml:space="preserve">x garden</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1808"></child>
+        </children>
+    </item>
+    <item nodeId="node-1808">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hut
+A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is a large steel door to the east, and another exit to the west. By the steel door there is a terminal with a red/blue/green color scheme.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1809"></child>
+        </children>
+    </item>
+    <item nodeId="node-1809">
+        <command xml:space="preserve">x terminal</command>
+        <result xml:space="preserve">The terminal says: YOU ARE BEING RECORDED. PLEASE SAY THE PASSWORD INTO THE TERMINAL.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1810"></child>
+        </children>
+    </item>
+    <item nodeId="node-1810">
+        <command xml:space="preserve">x shelves</command>
+        <result xml:space="preserve">Hammers, nails, wire cutters, and other tools are scattered all over the shelves. There is a bright red toolbox sitting on one of the shelves. There's a shovel behind the shelves. Next to the shelves, you can see an open metal box attached to the wall. There are wires inside.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1811"></child>
+        </children>
+    </item>
+    <item nodeId="node-1811">
+        <command xml:space="preserve">x metal box</command>
+        <result xml:space="preserve">There are three wires: red, green, and blue.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1812"></child>
+        </children>
+    </item>
+    <item nodeId="node-1812">
+        <command xml:space="preserve">cut wire with wirecutter</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1813"></child>
+        </children>
+    </item>
+    <item nodeId="node-1813">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a robot (open but empty)
+  Shovel
+  a manual
+  gloves
+  wire cutters
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1814"></child>
+        </children>
+    </item>
+    <item nodeId="node-1814">
+        <command xml:space="preserve">cut blue wire with wire cutters</command>
+        <result xml:space="preserve">I only understood you as far as wanting to cut blue wire.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1815"></child>
+        </children>
+    </item>
+    <item nodeId="node-1815">
+        <command xml:space="preserve">cut blue wire</command>
+        <result xml:space="preserve">You don't know how to work electronics; it's not safe to mess with live wire. Perhaps find something to help you?
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1816"></child>
+        </children>
+    </item>
+    <item nodeId="node-1816">
+        <command xml:space="preserve">x manual</command>
+        <result xml:space="preserve">You see nothing special about the manual.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1817"></child>
+        </children>
+    </item>
+    <item nodeId="node-1817">
+        <command xml:space="preserve">read manual</command>
+        <result xml:space="preserve">You see nothing special about the manual.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1818"></child>
+        </children>
+    </item>
+    <item nodeId="node-1818">
+        <command xml:space="preserve">x wire</command>
+        <result xml:space="preserve">(wire cutters)
+A rusted pair of wire cutters. The blade still seems sharp though.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1819"></child>
+        </children>
+    </item>
+    <item nodeId="node-1819">
+        <command xml:space="preserve">x blue wire</command>
+        <result xml:space="preserve">The blue wire has the number 8 printed on it.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1820"></child>
+        </children>
+    </item>
+    <item nodeId="node-1820">
+        <command xml:space="preserve">x red wire</command>
+        <result xml:space="preserve">The red wire has the number 6 printed on it.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1821"></child>
+        </children>
+    </item>
+    <item nodeId="node-1821">
+        <command xml:space="preserve">x green wire</command>
+        <result xml:space="preserve">The green wire has the number 2 printed on it.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1822"></child>
+        </children>
+    </item>
+    <item nodeId="node-1822">
+        <command xml:space="preserve">8, 6, 2</command>
+        <result xml:space="preserve">You seem to want to talk to someone, but I can't see whom.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1823"></child>
+        </children>
+    </item>
+    <item nodeId="node-1823">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening steel door)
+It seems to be locked.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1824"></child>
+        </children>
+    </item>
+    <item nodeId="node-1824">
+        <command xml:space="preserve">x terminal</command>
+        <result xml:space="preserve">The terminal says: YOU ARE BEING RECORDED. PLEASE SAY THE PASSWORD INTO THE TERMINAL.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1825"></child>
+        </children>
+    </item>
+    <item nodeId="node-1825">
+        <command xml:space="preserve">862</command>
+        <result xml:space="preserve">The terminal says: INCORRECT PASSWORD, PLEASE TRY AGAIN.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1826"></child>
+        </children>
+    </item>
+    <item nodeId="node-1826">
+        <command xml:space="preserve">268</command>
+        <result xml:space="preserve">The terminal says: INCORRECT PASSWORD, PLEASE TRY AGAIN.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1827"></child>
+        </children>
+    </item>
+    <item nodeId="node-1827">
+        <command xml:space="preserve">826</command>
+        <result xml:space="preserve">The terminal says: INCORRECT PASSWORD, PLEASE TRY AGAIN.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1828"></child>
+        </children>
+    </item>
+    <item nodeId="node-1828">
+        <command xml:space="preserve">286</command>
+        <result xml:space="preserve">The terminal says: INCORRECT PASSWORD, PLEASE TRY AGAIN.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1829"></child>
+        </children>
+    </item>
+    <item nodeId="node-1829">
+        <command xml:space="preserve">682</command>
+        <result xml:space="preserve">The terminal says: CORRECT PASSWORD, UNLOCKING DOOR.
+The door clicks.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1830"></child>
+        </children>
+    </item>
+    <item nodeId="node-1830">
+        <command xml:space="preserve">open doo</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1831"></child>
+        </children>
+    </item>
+    <item nodeId="node-1831">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">You open steel door.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1832"></child>
+        </children>
+    </item>
+    <item nodeId="node-1832">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Walkway
+The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. To the east you see the faint glow of a distant village.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1833"></child>
+        </children>
+    </item>
+    <item nodeId="node-1833">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hut
+A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is a large steel door to the east, and another exit to the west. By the steel door there is a terminal with a red/blue/green color scheme.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1834"></child>
+        </children>
+    </item>
+    <item nodeId="node-1834">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Walkway
+The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. To the east you see the faint glow of a distant village.
+
+You can see a horde here.
+
+
+
+    *** The horde rushes you, and you get attacked. ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1835"></child>
+        </children>
+    </item>
+    <item nodeId="node-1835">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">
+
+
+You awake, cold and wet. Your clothes are soaked, and the only source of heat is the fire that you are huddled by. In the distance, you hear a horde of robots, and you realize they are coming to get you.
+You are immensely hungry, your goal is the find food.
+
+The Village
+An Interactive Fiction by kgoodrowe20
+Release 1 / Serial number 190415 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Hut
+A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is a large steel door to the east, and another exit to the west. By the steel door there is a terminal with a red/blue/green color scheme.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1836"></child>
+        </children>
+    </item>
+    <item nodeId="node-1836">
+        <command xml:space="preserve">682</command>
+        <result xml:space="preserve">The terminal says: CORRECT PASSWORD, UNLOCKING DOOR.
+The door clicks.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1837"></child>
+        </children>
+    </item>
+    <item nodeId="node-1837">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening steel door)
+
+Walkway
+The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. To the east you see the faint glow of a distant village.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1838"></child>
+        </children>
+    </item>
+    <item nodeId="node-1838">
+        <command xml:space="preserve">ee</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1839"></child>
+        </children>
+    </item>
+    <item nodeId="node-1839">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Village
+The village is nearly abandoned, with empty houses and damaged buildings. The walkway is to the west, and you can see a church to the east.
+
+You can see a robot (empty) here.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1840"></child>
+        </children>
+    </item>
+    <item nodeId="node-1840">
+        <command xml:space="preserve">x houses</command>
+        <result xml:space="preserve">Broken down houses line the edge of the village. Behind one of them, you spot an axe.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1841"></child>
+        </children>
+    </item>
+    <item nodeId="node-1841">
+        <command xml:space="preserve">take axe</command>
+        <result xml:space="preserve">Taken.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1842"></child>
+        </children>
+    </item>
+    <item nodeId="node-1842">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Walkway
+The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. To the east you see the faint glow of a distant village.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1843"></child>
+        </children>
+    </item>
+    <item nodeId="node-1843">
+        <command xml:space="preserve">cut fence</command>
+        <result xml:space="preserve">You cut down the fence, gaining access to the mountain. You see a glowing screw in the rubble and take it.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1844"></child>
+        </children>
+    </item>
+    <item nodeId="node-1844">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Mountain
+A snowy mountain path.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1845"></child>
+        </children>
+    </item>
+    <item nodeId="node-1845">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Summit
+After a long trek up the mountain, you reach the summit. You can see everything from up here! There is not much here except for a pile of rocks and a shrine.
+
+The sounds of the horde come from the south.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1221,6 +2495,7 @@ The sounds of the horde come from the south.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1546"></child>
+            <child nodeId="node-1853"></child>
             <child nodeId="node-1081"></child>
             <child nodeId="node-1643"></child>
             <child nodeId="node-1594"></child>
@@ -2037,6 +3312,56 @@ The sounds of the horde come from the west.
     <item nodeId="node-1735">
         <command xml:space="preserve">ask boltz about horde</command>
         <result xml:space="preserve">He beeps, almost as if a warning.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1853">
+        <command xml:space="preserve">cut fence</command>
+        <result xml:space="preserve">You cut down the fence, gaining access to the mountain. You see a glowing screw in the rubble and take it.
+
+The horde is close.
+
+The sounds of the horde come from the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1854"></child>
+        </children>
+    </item>
+    <item nodeId="node-1854">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Corn field
+A supposed corn field, but no corn grows here.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1855"></child>
+        </children>
+    </item>
+    <item nodeId="node-1855">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+The horde is close.
+
+The sounds of the horde come from the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1856"></child>
+        </children>
+    </item>
+    <item nodeId="node-1856">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Lake
+A lake that appears to have frozen over solid. The barrens are to the west, and a corn field is to the east.
 
 The sounds of the horde come from the west.
 

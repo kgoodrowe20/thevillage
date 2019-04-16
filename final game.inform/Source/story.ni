@@ -159,11 +159,12 @@ Fence is scenery in walkway.
 glowing screw is a thing. The description is "A metal screw that emits a bright blue hue."
 
 instead of cutting fence:
-	say "You cut down the fence, gaining access to the mountain. You see a glowing screw in the rubble and take it.";
+		say "You cut down the fence, gaining access to the mountain. You see a glowing screw in the rubble and take it.";
 	change south exit of mountain to walkway;
 	change north exit of walkway to mountain;
 	now player is carrying glowing screw.
-	
+		
+
 [give the player glowing screw]
 	
 instead of dropping glowing screw:
@@ -173,7 +174,7 @@ instead of dropping glowing screw:
 
 Mountain is a room. "A snowy mountain path."
 
-Summit is a room. It is north of mountain. "After a long trek up the mountain, you reach the summit. You can see everything from up here! There is not much here except for a pile of rocks and a shrine."
+Summit is a room. It is north of mountain. "After a long trek up the mountain, you reach the summit. You can see everything from up here! There is not much here except for a pile of rocks and a shrine. The mountain is to the south."
 	
 	rocks is scenery in summit. The description is "A pile of stones."
 	
@@ -187,9 +188,9 @@ Summit is a room. It is north of mountain. "After a long trek up the mountain, y
 	
 	holy battery is an undescribed thing in summit. The description is "A glowing battery."
 
-Corn field is a room. It is south of walkway. "A supposed corn field, but no corn grows here."
+Corn field is a room. It is south of walkway. "A supposed corn field, but no corn grows here. The walkway is to the north, the meadow is to the south, and the lake is to the west."
 
-Meadow is a room. It is south of Corn field. The description is "A nice little meadow in the summertime, probably; now it is covered in snow, and has a large, naked tree in the center."
+Meadow is a room. It is south of Corn field. The description is "A nice little meadow in the summertime, probably; now it is covered in snow, and has a large, naked tree in the center. The corn field is to the north."
 
 tree is scenery in meadow. "A big, old oak."
 
