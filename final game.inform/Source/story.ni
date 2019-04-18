@@ -2,7 +2,7 @@
 
 When play begins: 
 	say "You awake, cold and wet. Your clothes are soaked, and the only source of heat is the fire that you are huddled by. In the distance, you hear a horde of robots, and you realize they are coming to get you.";
-	say "You are immensely hungry, your goal is the find food."
+	say "You are immensely hungry, your goal is to find food."
 
 Hut is a room. The description is "A hut that you found yourself awake in. Shelves line the wooden walls, cluttered with various tools and junk. There is a large steel door to the east, and another exit to the west. By the steel door there is a terminal with a red/blue/green color scheme."
 
@@ -22,13 +22,13 @@ instead of inserting glowing screw into robot:
 	remove robot from play;
 	move boltz to village.
 
-After asking the Boltz about "horde", say "He beeps, almost as if a warning."
-After asking the Boltz about "food", say "He boops and makes a cross with his arms."
-After asking the Boltz about "clothes", say "He shrugs."
-After asking the Boltz about "battery", say "He points towards the church excitedly."
-After asking the Boltz about "holy battery", say "He points towards the church excitedly."
-After asking the Boltz about "wasteland", say "He shakes his head."
-After asking the Boltz about "barrens", say "He shakes his head."
+After asking Boltz about "horde", say "He beeps, almost as if a warning."
+After asking Boltz about "food", say "He boops and makes a cross with his arms."
+After asking Boltz about "clothes", say "He shrugs."
+After asking Boltz about "battery", say "He points towards the church excitedly."
+After asking Boltz about "holy battery", say "He points towards the church excitedly."
+After asking Boltz about "wasteland", say "He shakes his head."
+After asking Boltz about "barrens", say "He shakes his head."
 
 the horde is a man.
 
@@ -172,7 +172,7 @@ instead of dropping glowing screw:
 
 [cut down fence to access mountain]
 
-Mountain is a room. "A snowy mountain path."
+Mountain is a room. "A snowy mountain path. The summit is to the north, the walkway is to the south."
 
 Summit is a room. It is north of mountain. "After a long trek up the mountain, you reach the summit. You can see everything from up here! There is not much here except for a pile of rocks and a shrine. The mountain is to the south."
 	
