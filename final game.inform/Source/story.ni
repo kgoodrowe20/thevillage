@@ -42,11 +42,14 @@ Every turn:
 		if horde is visible, end the story saying "The horde rushes you, and you get attacked.";
 	If horde is in a room adjacent to player:
 		say "The horde is close."
+[ends the game when player is in room with the horde]
 		
 Every turn:
 	   let the way be the best route from the location to horde; 
            if the way is a direction, say "The sounds of the horde come from the [way]." 
-	
+[mrs. kiang wrote this code.]	
+
+
 tools is scenery in hut. "Assorted tools."
 
 junk is scenery in hut. "Worthless trash."
@@ -112,6 +115,8 @@ understand "six hundred eighty two" as passunlocking.
 understand "six hundred eighty-two" as passunlocking.
 understand "six eighty two" as passunlocking.
 understand "six eighty-two" as passunlocking.
+[i created a verb to use to unlock the door when the correct password is spoken.]
+
 
 incorrectpass is an action applying to nothing.
 
@@ -223,4 +228,15 @@ instead of inserting holy battery into altar:
 	remove holy battery from play;
 	end the story saying "The altar dispenses some food, which you eat, causing you to wake up in your bed! It was a dream the whole time!"
 	
+[shortest route to win:
+say 682 to unlock the door
+east x2
+take axe
+west
+cut  fence
+north x2
+take holy battery (from shrine)
+south x2
+east x2
+put holy battery in altar]
 	
