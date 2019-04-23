@@ -10,7 +10,7 @@ Shelves is scenery in hut. "Hammers, nails, wire cutters, and other tools are sc
 
 understand "shelf" as shelves.
 
-a robot is a thing. It is in Village. it is an open openable container.The description is "A rusty robot with the word 'Boltz' inscribed on its chest. It seems to be missing a screw or two."
+a robot is a thing. It is in Village. it is an open openable container. The description is "A rusty robot with the word 'Boltz' inscribed on its chest. It seems to be missing a screw."
 
 understand "robot" as the robot.
 understand "the robot" as the robot.
@@ -80,7 +80,8 @@ blue wire is scenery in hut. the description is "The blue wire has the number 8 
 
 green wire is scenery in hut. the description is "The green wire has the number 2 printed on it."
 
-a manual is a thing in toolbox.
+a manual is a thing in toolbox. the description is "This manual would've been useful if the pages weren't torn out."
+
 understand "manual" as a manual.	
 
 instead of cutting wires:
@@ -147,14 +148,23 @@ icebreak is an action applying to nothing.
 
 understand "break ice" as icebreak.
 
+diggy is an action applying to nothing.
+
+understand "dig" as diggy.
+
+instead of diggy:
+	say "What's the use?"
+
 instead of icebreak:
 	say "[if player is holding axe]You could, but should you? [otherwise]How do you expect to do that?"
 
 Yard is a room. It is west of hut. "A run down yard, complete with a snowed-out garden. A hut is to the east, and the wasteland is to the west."
 
-Walkway is a room. "[if player is holding glowing screw] The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north. To the east you see the faint glow of a distant village.[otherwise]The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. To the east you see the faint glow of a distant village."
+garden is scenery in yard. "A small, wilted garden."
+
+Walkway is a room. "[if player is holding glowing screw] The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north. To the east you see the faint glow of a distant village.[otherwise]The walkway is a pathway outside. The snow is billowing and piling up in large amounts. There is a mountain to the north, with a fence blocking your way. There are cracks in the fence. To the east you see the faint glow of a distant village."
  
-Fence is scenery in walkway.
+Fence is scenery in walkway. "Seems cuttable."
 
 glowing screw is a thing. The description is "A metal screw that emits a bright blue hue."
 
@@ -163,7 +173,6 @@ instead of cutting fence:
 	change south exit of mountain to walkway;
 	change north exit of walkway to mountain;
 	now player is carrying glowing screw.
-		
 
 [give the player glowing screw]
 	
@@ -172,7 +181,7 @@ instead of dropping glowing screw:
 
 [cut down fence to access mountain]
 
-Mountain is a room. "A snowy mountain path. The summit is to the north, the walkway is to the south."
+Mountain is a room. "A snowy mountain path. The summit is to the north, the walkway is to the south. "
 
 Summit is a room. It is north of mountain. "After a long trek up the mountain, you reach the summit. You can see everything from up here! There is not much here except for a pile of rocks and a shrine. The mountain is to the south."
 	
@@ -197,11 +206,12 @@ tree is scenery in meadow. "A big, old oak."
 instead of cutting tree:
 	say "That would waste too much energy."
 
-Village is a room. It is east of Walkway. The description is "The village is nearly abandoned, with empty houses and damaged buildings. The walkway is to the west, and you can see a church to the east."
+Village is a room. It is east of Walkway. The description is "The village is nearly abandoned, with empty houses and damaged buildings. The houses may hold something interesting in the houses... The walkway is to the west, and you can see a church to the east."
 
 houses is scenery in village. "Broken down houses line the edge of the village. Behind one of them, you spot an axe."
 
-	
+understand "slot" as altar.	
+
 axe is an undescribed thing in village. the description is "A heavy, rusted woodcutter's axe."
 	
 Church is a room. It is east of village. "An average looking church, except the altar at the front looks a little strange."
